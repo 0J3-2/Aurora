@@ -16,5 +16,5 @@ or you could just report an [issue](https://github.com/KorbsStudio/Aurora/issues
 
 [Download for Powercord](downloads/Aurora.zip)
 
-Previously Maintained by [Korbs](https://KorbsStudio.com)
+Previously Maintained by [Korbs](https://KorbsStudio.com)<br/>
 Maintained by [0J3](https://github.com/0J3/)
