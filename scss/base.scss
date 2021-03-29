@@ -16,7 +16,7 @@
                    By Tropical
                    Previously Maintanied by Korbs
                    Semi-Maintained by 0J3
-TABLE OF CONTENTS
+TABLE OF CONTENTS (might be out of date - please see individual css files in their folders)
 1. Background and Sizing
   1.a. Main Background
   1.b. Spacing
@@ -120,15 +120,15 @@ TABLE OF CONTENTS
   9.u. Changelog
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
    10. Keyframes
-11. Store, Activity, Library, Friends and Server Discovery > see friends/_index.scss
+11. Store, Activity, Library, Friends and Server Discovery > Moved to Folder
   11.a. Friends
   11.b. Nitro
 	11.c. Server Discovery
-12. Out of app areas > See outofapp/_index.scss
+12. Out of app areas > Moved to Folder
   12.a. Login Screen
   12.b. Crash Screen
   12.c. Loading Screen
-13. Plugins > See Plugins/_index.scss
+13. Plugins > Moved to Folder
   13.a. Theme and Pluginrepo
   13.b. BetterFormattingRedux
   13.c. GoogleTranslateOption
@@ -142,7 +142,7 @@ TABLE OF CONTENTS
   13.k. Date Viewer
 	13.l. Channel Tabs
 14. Roundness
-15. Overwrite Grey SVG's
+15. Overwrite Grey SVG's > Moved to Folder
 */
 
 /*1. Background and Sizing*/
@@ -4453,17 +4453,17 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 /*============== END OF SECTION ============== */
 
 /*11. Friends */
-@import './friends/_index';
+@import './11. Friends, Nitro, Server Discovery/_index';
 
 /*============== END OF SECTION ============== */
 
 /*12. Out of App Areas*/
-@import './outofapp/_index';
+@import './12. Out of App Areas/_index';
 
 /*============== END OF SECTION ============== */
 
 /*13. Plugins*/
-@import './plugins/_index';
+@import './13. Plugins/_index';
 
 /*============== END OF SECTION ============== */
 /*14. Roundness*/
@@ -4506,150 +4506,11 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 /*============== END OF SECTION ============== */
 
 /*15. Overwrite Grey SVG's*/
-.image-1GzsFd,
-.emptyIconFriends-BrjhY9,
-.emptyIconGuilds-3OViNh,
-.emptyIconStreamerMode-3RfWOW,
-.noResultsImage-JbSWtu,
-.userSettingsSecurityImage-21pI_Q,
-.emptyStateImage-2eMp68,
-.image-1GzsFd {
-	filter: brightness(1) saturate(2) !important;
-}
-.userSettingsSecurityImage-21pI_Q,
-.image-1GzsFd {
-	opacity: 1;
-}
-.empty-3sCt5f {
-	background: none !important;
-	margin-top: -120px;
-}
-.emptyStateImage-2eMp68,
-.image-1GzsFd {
-	opacity: 0.7;
-}
-.emptyIconFriends-BrjhY9,
-.emptyIconGuilds-3OViNh,
-.emptyIconStreamerMode-3RfWOW,
-.noResultsImage-JbSWtu {
-	opacity: 1;
-}
+@import './15. Overwrite SVGs/_index';
 /*Made with ♥ by Tropical, the Derealised Community and 0J3.
   Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
 
 /* ==============================
 	  ++  Spectra's fixes  ++
    ============================= */
-.messages-3amgkR,
-.scroller-2TZvBN,
-.panels-j1Uci_,
-.privateChannels-1nO12o,
-.childWrapper-anI2G9,
-.contentRegionScroller-26nc1e,
-.scroller-1JbKMe,
-.sidebarRegionScroller-3MXcoP,
-.theme-dark .footer-3rDWdC,
-.standardSidebarView-3F1I7i,
-.theme-dark .messagesPopout-24nkyi,
-.friendsTable-133bsv .friendsTableBody-1ZhKif,
-.scroller-9moviB,
-.app-2rEoOp {
-	background: transparent !important;
-}
-.sidebar-2K8pFh {
-	border-radius: 6px !important;
-	background: var(--backdropblurred) !important;
-	background-size: cover !important;
-	background-position: center !important;
-	background-attachment: fixed !important;
-	margin-right: 50px;
-	padding: 0px 0px 0px 10px;
-}
-.theme-dark .bodyInner-245q0L,
-.theme-dark .footer-1fjuF6 {
-	background: transparent;
-}
-[class*='avatar-'],
-.image-33JSyf {
-	border-radius: 50%;
-}
-.folder-21wGz3 {
-	background-image: var(--main-color);
-}
-.modal-yWgWj-,
-.expandedFolderBackground-2sPsd- {
-	background-image: var(--main-color);
-	box-shadow: inset 0 10000px rgba(0, 0, 0, 0.55) !important;
-	left: 22px;
-}
-#pluginNotice,
-.notice-2FJMB4 {
-	width: auto;
-	display: table;
-	height: 25px;
-	padding-right: 35px;
-	margin-bottom: 5px;
-	border-radius: 8px !important;
-	background-image: var(--main-color);
-	box-shadow: inset 0 10000px rgba(0, 0, 0, 0.55);
-}
-.dismiss-SCAH9H {
-	width: 25px;
-	margin-right: 10px;
-}
-.wordmark-2iDDfm:after {
-	left: 30px;
-	top: 8px;
-}
-
-/* - - - - - - */
-.scroller-305q3I {
-	background-color: transparent;
-}
-.powercord-entities-manage-tabs {
-	background-color: var(--main-color-faded);
-}
-.theme-dark .selectorSelected-1_M1WV {
-	background-color: var(--main-color-faded);
-}
-.theme-dark .description-11DmNu,
-.theme-dark .descriptionUsername-J_75O8 {
-	color: white;
-}
-.colorStandard-2KCXvj {
-	color: white;
-}
-.wrapper-2aW0bm {
-	background: transparent;
-	box-shadow: none;
-}
-.wrapper-2aW0bm:hover {
-	box-shadow: none !important;
-}
-.button-1ZiXG9:hover {
-	background-color: transparent;
-}
-.button-1ZiXG9 {
-	color: white;
-}
-.icon-3Gkjwa {
-	width: 16px;
-	height: 16px;
-}
-.buttons-cl5qTG.container-3npvBV {
-	margin-top: 22px;
-}
-.root-3R2ngo.enterDone-2zvtsK {
-	border-radius: 10px;
-}
-.scroller-2FKFPG.perksModal-fSYqOq {
-	background-image: var(--backdropblurred);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.theme-dark .perksModal-fSYqOq {
-	background: transparent;
-}
-.role-3UN8jj.role-1P70N6 {
-	background: var(--main-color);
-}
+@import './Spectras Fixes';
