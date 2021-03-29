@@ -1,1 +1,8 @@
 node_modules
+css/*
+!css/readme.md
+!css/base.css
+!css/base.css.map
+!css/Aurora.theme.css
+!css/Aurora.theme.css.map
+!readme.md
