@@ -1,5 +1,5 @@
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: right center !important;

@@ -48,7 +48,13 @@
 	padding-right: 35px;
 	margin-bottom: 5px;
 	border-radius: 8px !important;
-	background-image: var(--main-color);
+
+	/*
+		background-image is strongly discouraged here - what if main-color is a colour value instead of an image/gradient? 
+		- 0J3
+	*/
+	background: var(--main-color);
+
 	box-shadow: inset 0 10000px rgba(0, 0, 0, 0.55);
 }
 .dismiss-SCAH9H {

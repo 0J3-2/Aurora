@@ -1,5 +1,5 @@
 .channelTabs-tabContainer {
-  background: rgba(0, 0, 0, 0.336);
+  background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
 }
 

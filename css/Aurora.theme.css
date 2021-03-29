@@ -327,10 +327,10 @@ div#app-mount {
 .da-guilds,
 .scroller-1Bvpku,
 .wrapper-3NnKdC {
-  background: var(--backdropeffect-backgroundColor) !important;
-  background-color: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
+  background-color: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
-  --background-tertiary: transparent;
+  --background-tertiary: var(--backdropeffectclr) !important;
 }
 
 /*============== END OF SECTION ============== */
@@ -5163,7 +5163,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 /* 11.b. Nitro */
 .applicationStore-1pNvnv {
   border-radius: 6px !important;
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: center !important;
@@ -5177,7 +5177,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*11.c. Server Discovery*/
 .pageWrapper-1PgVDX {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: fixed !important;
@@ -5280,7 +5280,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*12.b. Crash Screen*/
 .errorPage-u8SYh4 {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -5288,7 +5288,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*12.c. Loading Screen*/
 .container-16j22k {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -5305,7 +5305,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   padding: 40px;
   border-radius: 10px;
   padding-top: 10px;
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
 }
 .content-1-zrf2:hover {
@@ -5322,7 +5322,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*13.b. BetterFormattingRedux*/
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: right center !important;
@@ -5460,7 +5460,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 .metalloriff-changelog-scroller {
-  background: var(--backdropeffect-backgroundColor) !important;
+  background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5) !important;
@@ -5505,7 +5505,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*13.l Channel Tabs*/
 .channelTabs-tabContainer {
-  background: rgba(0, 0, 0, 0.336);
+  background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
 }
 
@@ -5648,7 +5648,11 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   padding-right: 35px;
   margin-bottom: 5px;
   border-radius: 8px !important;
-  background-image: var(--main-color);
+  /*
+  	background-image is strongly discouraged here - what if main-color is a colour value instead of an image/gradient? 
+  	- 0J3
+  */
+  background: var(--main-color);
   box-shadow: inset 0 10000px rgba(0, 0, 0, 0.55);
 }
 

@@ -27,7 +27,7 @@
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
 	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop*/
 	--backdropeffect: blur(8px);
-	--backdropeffect-backgroundColor: #0004;
+	--backdropeffectclr: rgba(0, 0, 0, 0.336);
 	--backdrop-darkness: transparent; /*Brightness of var(--backdrop);*/
 	/*Roundness Variables*/
 	--chat-avatar-roundness: 5px !important; /*Roundness of chat avatars*/
