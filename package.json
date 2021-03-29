@@ -5,8 +5,8 @@
 		"name": "0J3"
 	},
 	"scripts": {
-		"build": "sass --style=compressed ./scss:./css",
-		"watch": "sass --style=compressed ./scss:./css --watch"
+		"build": "sass ./scss:./css",
+		"watch": "sass ./scss:./css --watch"
 	},
 	"devDependencies": {
 		"sass": "^1.32.8"
