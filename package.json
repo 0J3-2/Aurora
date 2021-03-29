@@ -1,14 +1,15 @@
 {
 	"name": "aurora",
-	"description": "A BandagedBD theme",
-	"author": {
-		"name": "0J3"
-	},
+	"description": "A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.",
+	"version": "2.4.2",
+	"author": "Tropical (Maintained by 0J3)",
 	"scripts": {
 		"build": "sass ./scss:./css",
 		"watch": "sass ./scss:./css --watch"
 	},
 	"devDependencies": {
 		"sass": "^1.32.8"
-	}
+	},
+	"website": "https://www.guilded.gg/i/LEx06WOE",
+	"source": "https://github.com/0J3-2/Aurora/tree/master"
 }
