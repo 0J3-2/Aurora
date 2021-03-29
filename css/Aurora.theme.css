@@ -323,11 +323,6 @@ div#app-mount {
 }
 
 /*1.f. Modal Background*/
-.da-modal {
-  background: rgba(0, 0, 0, 0.658);
-  backdrop-filter: blur(3px);
-}
-
 /*1.g. Server List Background*/
 .da-guilds,
 .scroller-1Bvpku,
@@ -335,6 +330,7 @@ div#app-mount {
 .da-wrapper,
 .scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku {
   background: #0000 !important;
+  background-color: #0000 !important;
   backdrop-filter: var(--backdropeffect) !important;
 }
 
