@@ -131,14 +131,15 @@ TABLE OF CONTENTS
   9.u. Changelog
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
    10. Keyframes
-11. Store, Activity, Library, Friends and Server Discovery
+11. Store, Activity, Library, Friends and Server Discovery > see friends/_index.scss
   11.a. Friends
   11.b. Nitro
-12. Out of app areas
+	11.c. Server Discovery
+12. Out of app areas > See outofapp/_index.scss
   12.a. Login Screen
   12.b. Crash Screen
   12.c. Loading Screen
-13. Plugins
+13. Plugins > See Plugins/_index.scss
   13.a. Theme and Pluginrepo
   13.b. BetterFormattingRedux
   13.c. GoogleTranslateOption
@@ -5098,7 +5099,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
   display: none;
 }
 
-/*11.e. Server Discovery*/
+/*11.c. Server Discovery*/
 .pageWrapper-1PgVDX {
   background: var(--backdropblurred) !important;
   background-size: cover !important;
@@ -5286,11 +5287,6 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 /*13.e. Read All Notifications*/
-.RANbutton {
-  /*width:68px;
-    font-size:11px !important;*/
-}
-
 /*13.f. Compatibility Tags [DISCONTINUED]*/
 /*.bda-slist li[data-name="BetterFormattingRedux"]:after,
   .bda-slist li[data-name="Discord Experiments"]:after,

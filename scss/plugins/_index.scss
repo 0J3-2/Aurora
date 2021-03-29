@@ -1,0 +1,118 @@
+/*13.a. Theme and PluginRepo*/
+@import './themeAndPluginRepo.scss';
+
+/*13.b. BetterFormattingRedux*/
+@import './betterFormattingRedux.scss';
+
+/*13.c. Translate*/
+@import './translate.scss';
+
+/*13.d. Share Button*/
+@import './shareButton.scss';
+
+/*13.e. Read All Notifications*/
+@import './readAllNotifications.scss';
+
+/*13.f. Compatibility Tags [DISCONTINUED]*/
+/*.bda-slist li[data-name="BetterFormattingRedux"]:after,
+  .bda-slist li[data-name="Discord Experiments"]:after,
+  .bda-slist li[data-name="GoogleTranslateOption"]:after,
+  .bda-slist li[data-name="PersonalPins"]:after,
+  .bda-slist li[data-name="PluginRepo"]:after,
+  .bda-slist li[data-name="ReadAllNotificationsButton"]:after,
+  .bda-slist li[data-name="ServerFolders"]:after,
+  .bda-slist li[data-name="Share Button"]:after,
+  .bda-slist li[data-name="ShowHiddenChannels"]:after,
+  .bda-slist li[data-name="ThemeRepo"]:after,
+  .bda-slist li[data-name="CreationDate"]:after,
+  .bda-slist li[data-name="Friends List Restyle"]:after,
+  .bda-slist li[data-name="FullSizePfp"]:after,
+  .bda-slist li[data-name="Large Chat Avatars"]:after,
+  .bda-slist li[data-name="ServerColumns"]:after {
+	  content:'Compatible with Aurora';
+	  background:var(--main-color);
+	  padding:2px;
+	  width:160px;
+	  height:18px;
+	  border-radius:3px;
+	  display:block;
+	  position:absolute;
+  }
+  .bda-slist li[data-name="BetterFormattingRedux"]:after {
+	  margin-top:-93px;
+	  margin-left:220px;
+  }
+  .bda-slist li[data-name="Discord Experiments"]:after {
+	  margin-top:-65px;
+	  margin-left:200px;
+  }
+  .bda-slist li[data-name="GoogleTranslateOption"]:after {
+	  margin-top:-140px;
+	  margin-left:265px;
+  }
+  .bda-slist li[data-name="CreationDate"]:after {
+	  margin-top:-124px;
+	  margin-left:175px;
+  }
+  .bda-slist li[data-name="PersonalPins"]:after {
+	  margin-top:-125px;
+	  margin-left:165px;
+  }
+  .bda-slist li[data-name="PluginRepo"]:after {
+	  margin-top:-125px;
+	  margin-left:160px;
+  }
+  .bda-slist li[data-name="ThemeRepo"]:after {
+	  margin-top:-125px;
+	  margin-left:170px;
+  }
+  .bda-slist li[data-name="ReadAllNotificationsButton"]:after {
+	  margin-top:-125px;
+	  margin-left:245px;
+  }
+  .bda-slist li[data-name="ServerFolders"]:after {
+	  margin-top:-155px;
+	  margin-left:180px;
+  }
+  .bda-slist li[data-name="Share Button"]:after {
+	  margin-top:-92px;
+	  margin-left:183px;
+  }
+  .bda-slist li[data-name="ShowHiddenChannels"]:after {
+	  margin-top:-125px;
+	  margin-left:215px;
+  }
+  .bda-slist li[data-name="Friends List Restyle"]:after {
+	  margin-top:-82px;
+	  margin-left:195px;
+  }
+  .bda-slist li[data-name="FullSizePfp"]:after {
+	  margin-top:-80px;
+	  margin-left:140px;
+  }
+  .bda-slist li[data-name="Large Chat Avatars"]:after {
+	  margin-top:-82px;
+	  margin-left:180px;
+  }
+  .bda-slist li[data-name="ServerColumns"]:after {
+	  margin-top:-82px;
+	  margin-left:180px;
+  }*/
+
+/*13.g. DetailedServerTooltips*/
+@import './detailedServerTooltips.scss';
+
+/*13.h. Reply System*/
+@import './replySystem.scss';
+
+/*13.i. Permissions Viewer*/
+@import './permissionsViewer.scss';
+
+/*13.j. StatusEverywhere*/
+@import './statusEverywhere.scss';
+
+/*13.k. Date Viewer*/
+@import './dateViewer.scss';
+
+/*13.l Channel Tabs*/
+@import './channelTabs.scss';
