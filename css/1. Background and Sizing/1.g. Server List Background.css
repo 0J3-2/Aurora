@@ -1,8 +1,10 @@
 .da-guilds,
-.scroller-1Bvpku {
+.scroller-1Bvpku,
+.wrapper-3NnKdC {
   background: #0000 !important;
   background-color: #0000 !important;
   backdrop-filter: var(--backdropeffect) !important;
+  --background-tertiary: transparent;
 }
 
 /*# sourceMappingURL=1.g.%20Server%20List%20Background.css.map */
