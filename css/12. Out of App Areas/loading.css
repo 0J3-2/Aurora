@@ -1,5 +1,6 @@
 .container-16j22k {
-  background: var(--backdropblurred) !important;
+  background: #0000 !important;
+  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-repeat: no-repeat !important;
   box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5) !important;
