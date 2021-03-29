@@ -1,11 +1,10 @@
 @use "../Mixins/backgrounds";
 body::before {
+	@include backgrounds.coverBackground;
 	position: absolute;
 	content: '';
 	height: 100%;
 	width: 100%;
-	background-image: var(--backdrop);
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	pointer-events: none;

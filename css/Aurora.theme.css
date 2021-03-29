@@ -204,12 +204,12 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
 body::before {
+  background: var(--backdrop) !important;
+  background-size: cover !important;
   position: absolute;
   content: "";
   height: 100%;
   width: 100%;
-  background-image: var(--backdrop);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   pointer-events: none;
