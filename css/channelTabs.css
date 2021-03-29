@@ -1,1 +1,6 @@
-.channelTabs-tabContainer{background:#0000;backdrop-filter:blur(3px)}/*# sourceMappingURL=channelTabs.css.map */
+.channelTabs-tabContainer {
+  background: rgba(0, 0, 0, 0.336);
+  backdrop-filter: blur(3px);
+}
+
+/*# sourceMappingURL=channelTabs.css.map */
