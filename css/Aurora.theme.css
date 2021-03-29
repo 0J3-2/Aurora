@@ -5095,8 +5095,6 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 /*11.a. Friends*/
 .container-1D34oG {
   border-radius: 6px !important;
-  background: #0000 !important;
-  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;
