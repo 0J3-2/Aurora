@@ -13,6 +13,7 @@ body::before {
 
 div#app-mount {
   background: var(--backdrop) !important;
+  background-size: cover !important;
 }
 
 .layer-3QrUeG,

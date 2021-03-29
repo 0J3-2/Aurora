@@ -1,3 +1,4 @@
+@use "../Mixins/backgrounds";
 body::before {
 	position: absolute;
 	content: '';
@@ -11,7 +12,7 @@ body::before {
 	box-shadow: inset 0 0 0 1000px var(--backdrop-darkness);
 }
 div#app-mount {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 }
 .layer-3QrUeG,
 .layers-3iHuyZ,

@@ -1,3 +1,6 @@
+// Load Mixins
+@use "./Mixins/backgrounds";
+
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
 @import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
 @import 'https://fonts.googleapis.com/css?family=Satisfy';
@@ -1105,10 +1108,9 @@ svg.icon-3cZ1F_ {
 }
 /* 3.v. Threads */
 .threadList-YMr2Sv {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 1000px rgba(0, 0, 0, 0.5) !important;
-	background-size: cover !important;
 	border: none;
 }
 .header-2Pdc8E,
@@ -1938,9 +1940,8 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	margin-left: 0px;
 }
 .menu-Sp6bN1 {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
-	background-size: cover !important;
 }
 
 .popoutBottom-1YbShG[style*='z-index: 1001; overflow: hidden; visibility: visible'] {
@@ -2038,6 +2039,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	border-bottom: 0px;
 }
 .alt-3btY0e.menu-Sp6bN1 {
+	@include backgrounds.coverBackground;
 	border-radius: 0 !important;
 	width: 240px !important;
 	bottom: 60px !important;
@@ -2045,9 +2047,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	height: 70px !important;
 	overflow: visible;
 	cursor: initial;
-	background: var(--backdrop) !important;
 	background-position: center !important;
-	background-size: cover !important;
 }
 .alt-3btY0e .item-1GzJrl {
 	transition: all 200ms ease;
@@ -2405,10 +2405,9 @@ div#guild-header-popout {
 	border-color: rgba(0, 0, 0, 0.8) !important;
 }
 .messagesPopoutWrap-1MQ1bW {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 1000px rgba(0, 0, 0, 0.5) !important;
-	background-size: cover !important;
 	border: none;
 }
 .messagesPopoutWrap-1MQ1bW .da-containerCozy {
@@ -2470,9 +2469,8 @@ div#guild-header-popout {
 	background: rgba(255, 255, 255, 0.05);
 }
 .container-3ayLPN {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat !important;
-	background-size: cover !important;
 	box-shadow: 0px 0px 1000px inset rgba(0, 0, 0, 0.7) !important;
 }
 .option-96V44q:after {
@@ -2653,11 +2651,10 @@ header.categoryWrapper-UZ5YNj {
 .da-emojiPicker,
 #bda-qem-twitch-container,
 #bda-qem-favourite-container {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	padding: 10px 10px 10px 10px;
 	border-radius: 0px !important;
 	border: 4px solid rgba(0, 0, 0, 0.75) !important;
-	background-size: cover !important;
 	box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.75);
 }
 .da-emojiPicker .da-stickyHeader {
@@ -2710,9 +2707,8 @@ header.categoryWrapper-UZ5YNj {
 	box-shadow: inset 0 0 0 2px var(--hover-color) !important;
 }
 .autocomplete-1vrmpx {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
-	background-size: cover !important;
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
 }
 .result-3w1ZcL {
@@ -2728,8 +2724,7 @@ header.categoryWrapper-UZ5YNj {
 
 /*7.k. RTC Connection Popout*/
 .container-2x5lvQ {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat !important;
 }
 .sparkline-3A-8OK svg g polyline {
@@ -2784,8 +2779,7 @@ header.categoryWrapper-UZ5YNj {
 .bd-modal-inner,
 .bd-modal-body,
 .bd-modal-wrapper .header {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 10000px rgba(0, 0, 0, 0.8),
 		0px 0px 10px rgba(0, 0, 0, 0.5) !important;
@@ -3063,8 +3057,7 @@ label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
 }
 .regionSelectModal-12e-57,
 .contentWrapper-3WC1ID {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 10000px rgba(0, 0, 0, 0.8),
 		0px 0px 10px rgba(0, 0, 0, 0.5) !important;
@@ -3084,15 +3077,13 @@ label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
 	background: rgba(0, 0, 0, 0.5) !important;
 }
 .scroller-2FKFPG.systemPad-3UxEGl.inner-ZyuQk0.slideBody-35BNbg.slideBody-2nMrnU {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 10000px rgba(0, 0, 0, 0.8),
 		0px 0px 10px rgba(0, 0, 0, 0.5) !important;
 }
 .wrapper-2ZbzR9.fixClipping-3qAKRb.theme-light.root-1gCeng.fullscreenOnMobile-1bD22y {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 	box-shadow: inset 0px 0px 10000px rgba(0, 0, 0, 0.8),
 		0px 0px 10px rgba(0, 0, 0, 0.5) !important;
@@ -3124,9 +3115,8 @@ form.modal-yWgWj-.slide-2pHaq5.size-3BX7nn.fullscreenOnMobile-1aglG_ {
 	background-position: fixed !important;
 }
 .reactors-Blmlhw {
-	background: var(--backdrop) !important;
+	@include backgrounds.coverBackground;
 	background-attachment: fixed !important;
-	background-size: cover !important;
 	box-shadow: inset 0 0 10000px rgba(0, 0, 0, 0.99);
 }
 
