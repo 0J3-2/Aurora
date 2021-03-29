@@ -1602,6 +1602,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	background: var(--main-color) !important;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
 	border-radius: 5px;
+	z-index: 10;
 }
 @keyframes fadetop {
 	0% {
@@ -4188,7 +4189,8 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label='Help']:hover::before {
-	content: "What's new in Aurora 2.7.2 \A- Removed an import link, no longer needed \A- Fixed import link for covers \A- The search area has been fixed \A- The context menu and other menus have been fixed \A- The new emoji picker has been theme  \A \A What's new in Aurora 2.7.1 \A- You're now able to click on spoilers \A \A What's new in Aurora 2.7 \A- Removed gray background between channels and chat \A- Fixed messages in chat \A- Removed emojis from toolbar on messages \A- Fixed scrollbars \A- Fixed profile covers \A- Fixed reactions \A- Fixed sidebar on settings \A- Fixed profile modals \A- Fixed headers \A- Fixed dropdown menu \A- Removed some seperators \A- Fixed other stuff :) \A- Updated login screen \A- Updated loading screen \A- Themed Server Boot screen \A- Themed new friends list \A- Categories are now green \A- Changed upload modal \A- Updated changloge, that you're reading ;) \A- Now being maintained by Korbs#0001.";
+	content: "What's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs \a\a What's new in Aurora 2.7.2 \a- Removed an import link, no longer needed \a- Fixed import link for covers \a- The search area has been fixed \a- The context menu and other menus have been fixed \a- The new emoji picker has been theme  \a\aWhat's new in Aurora 2.7.1 \a- You're now able to click on spoilers \a\aWhat's new in Aurora 2.7 \a- Removed gray background between channels and chat \a- Fixed messages in chat \a- Removed emojis from toolbar on messages \a- Fixed scrollbars \a- Fixed profile covers \a- Fixed reactions \a- Fixed sidebar on settings \a- Fixed profile modals \a- Fixed headers \a- Fixed dropdown menu \a- Removed some seperators \a- Fixed other stuff :) \a- Updated login screen \a- Updated loading screen \a- Themed Server Boot screen \a- Themed new friends list \a- Categories are now green \a- Changed upload modal \a- Updated changloge, that you're reading ;) \a- Now being maintained by Korbs#0001.";
+	z-index: 15;
 	display: block;
 	line-height: 22px;
 	font-size: 18px;
