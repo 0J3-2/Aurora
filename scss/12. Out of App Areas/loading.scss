@@ -14,9 +14,10 @@
 	padding: 40px;
 	border-radius: 10px;
 	padding-top: 10px;
-	background: var(--backdropblurred) !important;
-}
-
-.content-1-zrf2:hover {
-	transform: scale(1.04);
+	// background: var(--backdropblurred) !important;
+	background: #0000 !important;
+	backdrop-filter: var(--backdropeffect);
+	&:hover {
+		transform: scale(1.04);
+	}
 }

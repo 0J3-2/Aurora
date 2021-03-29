@@ -34,7 +34,7 @@
 	/*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
 	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
-	--backdropblursize: 6px;
+	--backdropeffect: blur(6px);
 	--backdrop-darkness: transparent; /*Brightness of var(--backdrop);*/
 	/*Roundness Variables*/
 	--chat-avatar-roundness: 5px !important; /*Roundness of chat avatars*/
