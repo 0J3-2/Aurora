@@ -5288,14 +5288,13 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 /*13.b. BetterFormattingRedux*/
-.bf-toolbar.bf-visible:before,
-.bf-toolbar.bf-hover:hover:before {
-  background: var(--backdropblurred);
+.bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before {
+  background: #0000 !important;
+  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: right center !important;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25) !important;
 }
-
 .bf-toolbar .format:hover {
   background: rgba(0, 0, 0, 0.5) !important;
   border-radius: 5px !important;
@@ -5428,7 +5427,8 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 .metalloriff-changelog-scroller {
-  background: var(--backdrop) !important;
+  background: #0000 !important;
+  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5) !important;
 }
@@ -5473,7 +5473,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 /*13.l Channel Tabs*/
 .channelTabs-tabContainer {
   background: rgba(0, 0, 0, 0.336);
-  backdrop-filter: blur(3px);
+  backdrop-filter: var(--backdropeffect);
 }
 
 /*============== END OF SECTION ============== */
