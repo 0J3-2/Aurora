@@ -1,0 +1,36 @@
+:root {
+	--chat-avatar-roundness: 5px;
+	--media-roundness: 50px;
+	--guild-hovered-roundness: 12px;
+}
+.da-guildsWrapper .guildInner-3DSoA4:hover,
+.da-guild.da-selected .da-guildInner,
+#app-mount .guildsWrapper-5TJh6A.foldercontent .da-guildIcon:hover,
+#app-mount .guildsWrapper-5TJh6A.foldercontent .guildInner-3DSoA4:hover,
+#app-mount .da-guildsWrapper .inner-1W0Bkn {
+	border-radius: var(--guild-hovered-roundness) !important;
+}
+.da-guildInner {
+	border-radius: var(--media-roundness) !important;
+	transition: 350ms all ease;
+}
+.mask-3OgeRz,
+.image-33JSyf,
+.status-oxiHuE:not(.status-3fQvEa),
+.avatar-small,
+.avatar-xxlarge,
+.inner-1W0Bkn,
+.avatar-large,
+.da-guildsError,
+.da-guildsAdd,
+.da-iconCircle,
+#app-mount .da-privateChannels .inner-1W0Bkn,
+.da-guildPlaceholder,
+.callAvatarBorder-1D_KaE,
+.da-callAvatar {
+	border-radius: var(--media-roundness) !important;
+}
+img.avatar-1BDn8e.clickable-1bVtEA {
+	margin-left: 4px;
+	margin-top: 2px;
+}

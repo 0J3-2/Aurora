@@ -1,0 +1,52 @@
+.theme-light {
+	.layer-3QrUeG:first-of-type::before {
+		content: 'Light mode will not be support on Aurora ~Korbs';
+		text-align: center;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: rgba(0, 0, 0, 0.75);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0 12px black;
+		color: #fff;
+		padding: 20px;
+		padding-bottom: 80px;
+		border-radius: 5px;
+	}
+
+	button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label='User Settings'] {
+		position: absolute;
+		left: 47%;
+		border-radius: 3px;
+		top: 45%;
+		transform: translate(-50%, 120%);
+		width: 480px;
+		height: 40px;
+		visibility: visible !important;
+		background: var(--main-color) !important;
+		box-shadow: 0 0 12px black;
+		opacity: 1;
+		&::before {
+			content: 'Turn On Dark mode';
+			color: white;
+			font-weight: bold;
+		}
+	}
+
+	.side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
+		border: 2px solid var(--hover-color);
+		color: var(--hover-color);
+		background: var(--main-color-faded);
+		padding: 16px;
+		text-align: center;
+	}
+	.layer-3QrUeG {
+		background: var(--backdropblurred) !important;
+		background-size: cover !important;
+		&:first-of-type * {
+			visibility: hidden;
+		}
+	}
+}

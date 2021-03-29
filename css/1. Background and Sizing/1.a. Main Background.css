@@ -1,0 +1,33 @@
+body::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: var(--backdrop);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1000px var(--backdrop-darkness);
+}
+
+div#app-mount {
+  background: var(--backdrop) !important;
+}
+
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.container-2lgZY8 {
+  background: transparent !important;
+}
+
+/*Makes aurora compatible with monsters addons*/
+.theme-dark,
+.appMount-3VJmYg {
+  --primary-color: rgba(0, 0, 0, 0.75);
+  --secondary-color: rgba(0, 0, 0, 0.6);
+  --tertiary-color: rgba(0, 0, 0, 0.4);
+  --quaternary-color: rgba(0, 0, 0, 0.7);
+}
+
+/*# sourceMappingURL=1.a.%20Main%20Background.css.map */

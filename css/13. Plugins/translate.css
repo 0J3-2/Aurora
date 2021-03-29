@@ -1,0 +1,14 @@
+.popout-3sVMXz.popout-googletranslate .themedPopout-25DgLi {
+  padding: 22px 22px 22px 22px !important;
+  animation: slide-up 250ms cubic-bezier(0, 0, 0, 1) !important;
+}
+
+.reverse-button {
+  transition: 250ms all fill;
+}
+
+.reverse-button:hover {
+  fill: var(--hover-color) !important;
+}
+
+/*# sourceMappingURL=translate.css.map */

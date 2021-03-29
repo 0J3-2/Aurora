@@ -1,0 +1,119 @@
+@keyframes fadeFromTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes fadeFromRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes fadeFromBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes fadeFromLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes slide-left {
+	from {
+		transform: translate(-100);
+	}
+}
+
+@keyframes slide-right {
+	from {
+		transform: translate(100%);
+	}
+}
+
+@-webkit-keyframes mentionpulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 var(--hover-color);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+	}
+}
+
+@keyframes show-status {
+	from {
+		transform: translateY(100%) translateX(0%) translateZ(0px);
+	}
+}
+
+@keyframes status {
+	from {
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+@keyframes context-open-invertY {
+	0% {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+	}
+}
+
+@keyframes context-open-new {
+	0% {
+		transform: scale(1, 0.8);
+	}
+}
+
+@keyframes context-open {
+	0% {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+
+@keyframes popoutanim-inner {
+	0% {
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes popoutanim {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

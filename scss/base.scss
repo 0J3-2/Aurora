@@ -119,7 +119,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
   9.t. Ace CSS Editor
   9.u. Changelog
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
-   10. Keyframes
+   10.a. Keyframes
 11. Store, Activity, Library, Friends and Server Discovery > Moved to Folder
   11.a. Friends
   11.b. Nitro
@@ -146,128 +146,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 */
 
 /*1. Background and Sizing*/
-/*1.a. Main Background*/
-body::before {
-	position: absolute;
-	content: '';
-	height: 100%;
-	width: 100%;
-	background-image: var(--backdrop);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	pointer-events: none;
-	box-shadow: inset 0 0 0 1000px var(--backdrop-darkness);
-}
-div#app-mount {
-	background: var(--backdrop) !important;
-}
-.layer-3QrUeG,
-.layers-3iHuyZ,
-.container-2lgZY8 {
-	background: transparent !important;
-}
-/*Makes aurora compatible with monsters addons*/
-.theme-dark,
-.appMount-3VJmYg {
-	--primary-color: rgba(0, 0, 0, 0.75);
-	--secondary-color: rgba(0, 0, 0, 0.6);
-	--tertiary-color: rgba(0, 0, 0, 0.4);
-	--quaternary-color: rgba(0, 0, 0, 0.7);
-}
-
-/*1.b. Spacing*/
-.app,
-.app-2rEoOp {
-	margin: 25px;
-	border-radius: 6px;
-	overflow: hidden;
-}
-.container-3gCOGc,
-#friends,
-.activityFeed-28jde9,
-.gameLibrary-TTDw4Y,
-.applicationStore-1pNvnv {
-	border-radius: 6px !important;
-}
-.base-3dtUhz {
-	border-radius: 0 0 0 5px !important;
-}
-
-/*1.c. General Transparency*/
-#app-mount,
-.divider-3gKybi,
-.typing-2GQL18,
-.typing-2GQL18,
-.bg-h5JY_x,
-.guild-1EfMGQ .guildInner-3DSoA4 {
-	background: transparent !important;
-	margin-bottom: 10px;
-}
-
-/*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
-.theme-light {
-	.layer-3QrUeG:first-of-type::before {
-		content: 'Light mode will not be support on Aurora ~Korbs';
-		text-align: center;
-		width: 500px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		background: rgba(0, 0, 0, 0.75);
-		border: 1px solid rgba(0, 0, 0, 0.5);
-		box-shadow: 0 0 12px black;
-		color: #fff;
-		padding: 20px;
-		padding-bottom: 80px;
-		border-radius: 5px;
-	}
-
-	button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label='User Settings'] {
-		position: absolute;
-		left: 47%;
-		border-radius: 3px;
-		top: 45%;
-		transform: translate(-50%, 120%);
-		width: 480px;
-		height: 40px;
-		visibility: visible !important;
-		background: var(--main-color) !important;
-		box-shadow: 0 0 12px black;
-		opacity: 1;
-	}
-
-	button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label='User Settings']::before {
-		content: 'Turn On Dark mode';
-		color: white;
-		font-weight: bold;
-	}
-	.side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
-		border: 2px solid var(--hover-color);
-		color: var(--hover-color);
-		background: var(--main-color-faded);
-		padding: 16px;
-		text-align: center;
-	}
-	.layer-3QrUeG {
-		background: var(--backdropblurred) !important;
-		background-size: cover !important;
-	}
-	.layer-3QrUeG:first-of-type * {
-		visibility: hidden;
-	}
-}
-/*1.e. Voice Chat Background*/
-.da-uploadArea + .da-wrapper {
-	/*backdrop-filter: blur(3px);*/
-	background: #0000;
-}
-/*1.f. Modal Background*/
-.da-modal {
-	background: #0000;
-	backdrop-filter: blur(3px);
-}
+@import './1. Background and Sizing/_index';
 /*============== END OF SECTION ============== */
 
 /*2. Titlebar*/
@@ -4329,127 +4208,8 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 /*============== END OF SECTION ============== */
 
 /*10. Tag Animations*/
-/*10.a. Keyframes*/
+@import './10. Tag Animations/_index';
 
-@keyframes fadeFromTop {
-	0% {
-		opacity: 0;
-		transform: translateY(-50%);
-	}
-	100% {
-		opacity: 0.9;
-		transform: none;
-	}
-}
-
-@keyframes fadeFromRight {
-	0% {
-		opacity: 0;
-		transform: translateX(50%);
-	}
-	100% {
-		opacity: 0.9;
-		transform: none;
-	}
-}
-
-@keyframes fadeFromBottom {
-	0% {
-		opacity: 0;
-		transform: translateY(50%);
-	}
-	100% {
-		opacity: 0.9;
-		transform: none;
-	}
-}
-
-@keyframes fadeFromLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-50%);
-	}
-	100% {
-		opacity: 0.9;
-		transform: none;
-	}
-}
-
-@keyframes slide-left {
-	from {
-		transform: translate(-100);
-	}
-}
-
-@keyframes slide-right {
-	from {
-		transform: translate(100%);
-	}
-}
-
-@-webkit-keyframes mentionpulse {
-	0% {
-		-webkit-box-shadow: 0 0 0 0 var(--hover-color);
-	}
-	70% {
-		-webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
-	}
-	100% {
-		-webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-	}
-}
-
-@keyframes show-status {
-	from {
-		transform: translateY(100%) translateX(0%) translateZ(0px);
-	}
-}
-
-@keyframes status {
-	from {
-		transform: scale(0);
-		opacity: 0;
-	}
-}
-
-@keyframes context-open-invertY {
-	0% {
-		padding-top: 0px;
-		padding-bottom: 0px;
-		margin-top: 0px;
-	}
-}
-
-@keyframes context-open-new {
-	0% {
-		transform: scale(1, 0.8);
-	}
-}
-
-@keyframes context-open {
-	0% {
-		padding-top: 0px;
-		padding-bottom: 0px;
-	}
-}
-
-@keyframes popoutanim-inner {
-	0% {
-		transform: scale(2);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
-@keyframes popoutanim {
-	0% {
-		transform: scale(0);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
 /*============== END OF SECTION ============== */
 
 /*11. Friends */
@@ -4467,42 +4227,7 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 
 /*============== END OF SECTION ============== */
 /*14. Roundness*/
-:root {
-	--chat-avatar-roundness: 5px;
-	--media-roundness: 50px;
-	--guild-hovered-roundness: 12px;
-}
-.da-guildsWrapper .guildInner-3DSoA4:hover,
-.da-guild.da-selected .da-guildInner,
-#app-mount .guildsWrapper-5TJh6A.foldercontent .da-guildIcon:hover,
-#app-mount .guildsWrapper-5TJh6A.foldercontent .guildInner-3DSoA4:hover,
-#app-mount .da-guildsWrapper .inner-1W0Bkn {
-	border-radius: var(--guild-hovered-roundness) !important;
-}
-.da-guildInner {
-	border-radius: var(--media-roundness) !important;
-	transition: 350ms all ease;
-}
-.mask-3OgeRz,
-.image-33JSyf,
-.status-oxiHuE:not(.status-3fQvEa),
-.avatar-small,
-.avatar-xxlarge,
-.inner-1W0Bkn,
-.avatar-large,
-.da-guildsError,
-.da-guildsAdd,
-.da-iconCircle,
-#app-mount .da-privateChannels .inner-1W0Bkn,
-.da-guildPlaceholder,
-.callAvatarBorder-1D_KaE,
-.da-callAvatar {
-	border-radius: var(--media-roundness) !important;
-}
-img.avatar-1BDn8e.clickable-1bVtEA {
-	margin-left: 4px;
-	margin-top: 2px;
-}
+@import './14. Roundness/index';
 /*============== END OF SECTION ============== */
 
 /*15. Overwrite Grey SVG's*/
