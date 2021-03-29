@@ -1,5 +1,5 @@
 .errorPage-u8SYh4 {
-  background: #0000 !important;
+  background: var(--backdropeffect-backgroundColor) !important;
   backdrop-filter: var(--backdropeffect);
   background-repeat: no-repeat !important;
   background-size: cover !important;

@@ -1,14 +1,6 @@
-/**
- * @name Aurora
- * @description A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.
- * @author Tropical (Maintained by 0J3)
- * @version 2.7.3
- * @website https://www.guilded.gg/i/LEx06WOE
- * @source https://github.com/0J3-2/Aurora/tree/master
- * @updateUrl https://0J3-2.github.io/Aurora/downloads/Aurora.theme.css
- */
 /*Import CSS From Github*/
-@import url('https://0J3-2.github.io/Aurora/css/base.css'); /* https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css */
+@import url('https://0J3-2.github.io/Aurora/css/base.css');
+
 /*	
 /$$$$$$	
 /$$__  $$	
@@ -33,7 +25,7 @@
 	--main-color-faded: rgba(67, 206, 162, 0.2); /*Faded Main Color*/
 	/*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
-	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
+	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop*/
 	--backdropeffect: blur(8px);
 	--backdropeffect-backgroundColor: #0004;
 	--backdrop-darkness: transparent; /*Brightness of var(--backdrop);*/

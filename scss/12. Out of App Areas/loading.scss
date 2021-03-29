@@ -1,5 +1,5 @@
 .container-16j22k {
-	background: #0000 !important;
+	background: var(--backdropeffect-backgroundColor) !important;
 	backdrop-filter: var(--backdropeffect);
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
@@ -16,7 +16,7 @@
 	border-radius: 10px;
 	padding-top: 10px;
 	// background: var(--backdropblurred) !important;
-	background: #0000 !important;
+	background: var(--backdropeffect-backgroundColor) !important;
 	backdrop-filter: var(--backdropeffect);
 	&:hover {
 		transform: scale(1.04);
