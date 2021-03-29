@@ -1,6 +1,5 @@
 .channelTabs-tabContainer {
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--main-color);
 }
 
 /*# sourceMappingURL=channelTabs.css.map */

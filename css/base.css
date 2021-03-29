@@ -5450,8 +5450,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*13.l Channel Tabs*/
 .channelTabs-tabContainer {
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--main-color);
 }
 
 /*============== END OF SECTION ============== */
