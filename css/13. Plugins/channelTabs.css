@@ -1,7 +1,7 @@
 .channelTabs-tabContainer {
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
-  background: rgba(var(--main-color), 0.5);
+  background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
 }
 
 /*# sourceMappingURL=channelTabs.css.map */
