@@ -1,0 +1,8 @@
+@mixin blurred {
+	background: var(--backdropeffectclr);
+	backdrop-filter: var(--backdropeffect);
+}
+@mixin coverBackground {
+	background: var(--backdrop) !important;
+	background-size: cover !important;
+}

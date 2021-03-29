@@ -1,4 +1,5 @@
+@use "../Mixins/backgrounds";
+
 .sb-menu-scroller-wrapper {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
+	@include backgrounds.coverBackground;
 }

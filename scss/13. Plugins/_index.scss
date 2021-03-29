@@ -1,17 +1,17 @@
 /*13.a. Theme and PluginRepo*/
-@import './themeAndPluginRepo.scss';
+@use './themeAndPluginRepo.scss';
 
 /*13.b. BetterFormattingRedux*/
-@import './betterFormattingRedux.scss';
+@use './betterFormattingRedux.scss';
 
 /*13.c. Translate*/
-@import './translate.scss';
+@use './translate.scss';
 
 /*13.d. Share Button*/
-@import './shareButton.scss';
+@use './shareButton.scss';
 
 /*13.e. Read All Notifications*/
-@import './readAllNotifications.scss';
+@use './readAllNotifications.scss';
 
 /*13.f. Compatibility Tags [DISCONTINUED]*/
 /*.bda-slist li[data-name="BetterFormattingRedux"]:after,
@@ -100,19 +100,19 @@
   }*/
 
 /*13.g. DetailedServerTooltips*/
-@import './detailedServerTooltips.scss';
+@use './detailedServerTooltips.scss';
 
 /*13.h. Reply System*/
-@import './replySystem.scss';
+@use './replySystem.scss';
 
 /*13.i. Permissions Viewer*/
-@import './permissionsViewer.scss';
+@use './permissionsViewer.scss';
 
 /*13.j. StatusEverywhere*/
-@import './statusEverywhere.scss';
+@use './statusEverywhere.scss';
 
 /*13.k. Date Viewer*/
-@import './dateViewer.scss';
+@use './dateViewer.scss';
 
 /*13.l Channel Tabs*/
-@import './channelTabs.scss';
+@use './channelTabs.scss';

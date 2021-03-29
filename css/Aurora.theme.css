@@ -8,9 +8,9 @@
  * @source https://github.com/0J3-2/Aurora/tree/master
  * @updateUrl https://0J3-2.github.io/Aurora/css/Aurora.theme.css
  */
-@import url("https://fonts.googleapis.com/css?family=Satisfy");
-@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
+@import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
+@import 'https://fonts.googleapis.com/css?family=Satisfy';
 :root {
   /*Color Variables*/
   --main-color: linear-gradient(
@@ -55,10 +55,6 @@
   /*Color When someone is Invisible*/
   --streaming: #643da7 !important;
   /*Color When someone is Streaming*/
-}
-
-::selection {
-  background: var(--main-color-faded) !important;
 }
 
 /*
@@ -201,6 +197,10 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 14. Roundness
 15. Overwrite Grey SVG's > Moved to Folder
 */
+::selection {
+  background: var(--main-color-faded) !important;
+}
+
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
 body::before {
@@ -5314,13 +5314,11 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 
 /*============== END OF SECTION ============== */
 /*13. Plugins*/
-/*13.a. Theme and PluginRepo*/
 .themerepo-loadingicon path:nth-of-type(1),
 .pluginrepo-loadingicon path:nth-of-type(1) {
   fill: var(--hover-color) !important;
 }
 
-/*13.b. BetterFormattingRedux*/
 .bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before {
   background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect);
@@ -5328,6 +5326,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   background-position: right center !important;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25) !important;
 }
+
 .bf-toolbar .format:hover {
   background: rgba(0, 0, 0, 0.5) !important;
   border-radius: 5px !important;
@@ -5339,7 +5338,6 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   color: var(--hover-color) !important;
 }
 
-/*13.c. Translate*/
 .popout-3sVMXz.popout-googletranslate .themedPopout-25DgLi {
   padding: 22px 22px 22px 22px !important;
   animation: slide-up 250ms cubic-bezier(0, 0, 0, 1) !important;
@@ -5353,12 +5351,74 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   fill: var(--hover-color) !important;
 }
 
-/*13.d. Share Button*/
 .sb-menu-scroller-wrapper {
   background: var(--backdrop) !important;
   background-size: cover !important;
 }
 
+.metalloriff-changelog-scroller::-webkit-scrollbar,
+.dst-tooltip:after {
+  display: none;
+}
+
+.tooltip-1OS-Ti.right-KM_vfY {
+  animation: faderight 150ms !important;
+}
+
+.dst-tooltip {
+  background-image: var(--main-color) !important;
+}
+
+.metalloriff-changelog-scroller {
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect);
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5) !important;
+}
+
+.reply-list {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.reply-item {
+  background: var(--main-color);
+}
+
+.reply-clear {
+  top: 10px;
+  right: 5px;
+}
+
+#permissions-modal-wrapper .modal-body {
+  background: var(--backdrop) !important;
+  background-size: cover !important;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#permissions-modal-wrapper .header,
+#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .perm-side {
+  background: transparent;
+}
+
+#app-mount .da-messageCozy .da-status {
+  border-radius: var(--chat-avatar-roundness) !important;
+}
+
+#dv-mount {
+  background: transparent !important;
+}
+
+.channelTabs-tabContainer {
+  background: var(--backdropeffectclr);
+  backdrop-filter: var(--backdropeffect);
+  background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
+}
+
+/*13.a. Theme and PluginRepo*/
+/*13.b. BetterFormattingRedux*/
+/*13.c. Translate*/
+/*13.d. Share Button*/
 /*13.e. Read All Notifications*/
 /*13.f. Compatibility Tags [DISCONTINUED]*/
 /*.bda-slist li[data-name="BetterFormattingRedux"]:after,
@@ -5446,70 +5506,11 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 	  margin-left:180px;
   }*/
 /*13.g. DetailedServerTooltips*/
-.metalloriff-changelog-scroller::-webkit-scrollbar,
-.dst-tooltip:after {
-  display: none;
-}
-
-.tooltip-1OS-Ti.right-KM_vfY {
-  animation: faderight 150ms !important;
-}
-
-.dst-tooltip {
-  background-image: var(--main-color) !important;
-}
-
-.metalloriff-changelog-scroller {
-  background: var(--backdropeffectclr) !important;
-  backdrop-filter: var(--backdropeffect);
-  background-size: cover !important;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5) !important;
-}
-
 /*13.h. Reply System*/
-.reply-list {
-  background: rgba(0, 0, 0, 0.85);
-}
-
-.reply-item {
-  background: var(--main-color);
-}
-
-.reply-clear {
-  top: 10px;
-  right: 5px;
-}
-
 /*13.i. Permissions Viewer*/
-#permissions-modal-wrapper .modal-body {
-  background: var(--backdrop) !important;
-  background-size: cover !important;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-}
-
-#permissions-modal-wrapper .header,
-#permissions-modal-wrapper .role-side,
-#permissions-modal-wrapper .perm-side {
-  background: transparent;
-}
-
 /*13.j. StatusEverywhere*/
-#app-mount .da-messageCozy .da-status {
-  border-radius: var(--chat-avatar-roundness) !important;
-}
-
 /*13.k. Date Viewer*/
-#dv-mount {
-  background: transparent !important;
-}
-
 /*13.l Channel Tabs*/
-.channelTabs-tabContainer {
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
-  background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
-}
-
 /*============== END OF SECTION ============== */
 /*14. Roundness*/
 :root {
