@@ -1,0 +1,8 @@
+{
+    "name": "Aurora",
+    "description": "A dark Aurora Borealis discord theme with blurred elements.",
+    "version": "1.0",
+    "author": "Tropical#0001",
+    "license": "MIT",
+    "theme": "Aurora.css"
+  }
