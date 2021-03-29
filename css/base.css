@@ -270,10 +270,7 @@ div#app-mount {
 /*1.f. Modal Background*/
 /*1.g. Server List Background*/
 .da-guilds,
-.scroller-1Bvpku,
-.wrapper-3NnKdC,
-.da-wrapper,
-.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku.scroller-1Bvpku {
+.scroller-1Bvpku {
   background: #0000 !important;
   background-color: #0000 !important;
   backdrop-filter: var(--backdropeffect) !important;
