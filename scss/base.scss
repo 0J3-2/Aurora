@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-@import './channelTabs.scss';
 ::selection {
 	background: var(--main-color-faded) !important;
 }
@@ -140,6 +139,7 @@ TABLE OF CONTENTS
   13.i. Permissions Viewer
   13.j. StatusEverywhere
   13.k. Date Viewer
+	13.l. Channel Tabs
 14. Roundness
 15. Overwrite Grey SVG's
 */
@@ -4780,26 +4780,17 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 /*13.i. Permissions Viewer*/
-#permissions-modal-wrapper .modal-body {
-	background: var(--backdrop) !important;
-	background-size: cover !important;
-	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-}
-#permissions-modal-wrapper .header,
-#permissions-modal-wrapper .role-side,
-#permissions-modal-wrapper .perm-side {
-	background: transparent;
-}
+@import './plugins/permissionsViewer.scss';
 
 /*13.j. StatusEverywhere*/
-#app-mount .da-messageCozy .da-status {
-	border-radius: var(--chat-avatar-roundness) !important;
-}
+@import './plugins/statusEverywhere.scss';
 
 /*13.k. Date Viewer*/
-#dv-mount {
-	background: transparent !important;
-}
+@import './plugins/dateViewer.scss';
+
+/*13.l Channel Tabs*/
+@import './plugins/channelTabs.scss';
+
 /*============== END OF SECTION ============== */
 
 /*14. Roundness*/
@@ -4870,7 +4861,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 .noResultsImage-JbSWtu {
 	opacity: 1;
 }
-/*Made with ♥ by Tropical and the Derealised Community.
+/*Made with ♥ by Tropical, the Derealised Community and 0J3.
   Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
 
 /* ==============================
