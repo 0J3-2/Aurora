@@ -19,20 +19,21 @@ img[src*='/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg'] {
 .loading-17PYl_ {
 	background: rgba(0, 0, 0, 0.5) !important;
 }
+.guildList-1ItbxP .lookFilled-1Gx00P.colorGreen-29iAKY {
+	background: var(--main-color);
+}
 .searchBox-3Y2Vi7 {
 	border-radius: 50px;
 	transition: 250ms background;
 	padding: 7px 30px;
-}
-.guildList-1ItbxP .lookFilled-1Gx00P.colorGreen-29iAKY {
-	background: var(--main-color);
-}
-.searchBox-3Y2Vi7:hover {
-	background: rgba(0, 0, 0, 0.65) !important;
-}
-.searchBox-3Y2Vi7:hover .searchBoxInput-uJtBcv::-webkit-input-placeholder,
-.searchBox-3Y2Vi7:hover .searchIcon-1a1-yA {
-	color: rgba(255, 255, 255, 0.6);
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.65) !important;
+		.searchBoxInput-uJtBcv::-webkit-input-placeholder,
+		.searchIcon-1a1-yA {
+			color: rgba(255, 255, 255, 0.6);
+		}
+	}
 }
 .searchBoxInput-uJtBcv::-webkit-input-placeholder,
 .searchIcon-1a1-yA {

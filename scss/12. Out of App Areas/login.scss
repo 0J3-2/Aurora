@@ -1,6 +1,3 @@
-.leftSplit-1qOwnR .wrapper-6URcxg {
-	right: 0px !important;
-}
 .rightSplit-2US0xy,
 .canvas-3XuBXe {
 	display: none !important;
@@ -21,4 +18,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 .leftSplit-1qOwnR {
 	width: -webkit-fill-available !important;
 	max-width: -webkit-fill-available;
+	.wrapper-6URcxg {
+		right: 0px !important;
+	}
 }
