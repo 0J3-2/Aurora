@@ -1,4 +1,5 @@
 .channelTabs-tabContainer {
+  --background-secondary-alt: var(--backdropeffectclr);
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
   background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
