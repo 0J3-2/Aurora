@@ -1,5 +1,5 @@
-.channelTabs-tabContainer {
-	--background-secondary-alt: var(--backdropeffectclr);
+.channelTabs-tabContainer.channelTabs-tabContainer {
+	--background-secondary-alt: var(--backdropeffectclr) !important;
 	background: var(--backdropeffectclr);
 	backdrop-filter: var(--backdropeffect);
 

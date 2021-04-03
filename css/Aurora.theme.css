@@ -5412,8 +5412,8 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   background: transparent !important;
 }
 
-.channelTabs-tabContainer {
-  --background-secondary-alt: var(--backdropeffectclr);
+.channelTabs-tabContainer.channelTabs-tabContainer {
+  --background-secondary-alt: var(--backdropeffectclr) !important;
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
   background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
