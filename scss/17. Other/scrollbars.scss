@@ -1,5 +1,6 @@
 $clip: content-box; // border-box
-$border: 0px solid transparent;
+$border: none; //4px solid transparent;
+
 // Thin Scrollers
 .thin-1ybCId {
 	&::-webkit-scrollbar {
@@ -72,47 +73,49 @@ $border: 0px solid transparent;
 }
 
 // Ghost Scrollers
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar {
-	width: 14px;
-	height: 14px;
+.scrollbarGhost-2F9Zj2 {
+	&::-webkit-scrollbar {
+		width: 14px;
+		height: 14px;
+	}
+
+	&::-webkit-scrollbar-thumb,
+	&::-webkit-scrollbar-track {
+		border-width: 3px;
+		border-radius: 7px;
+		background-clip: $clip;
+		border-style: solid;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: rgba(0, 0, 0, 0.4);
+		border: none;
+	}
+
+	&::-webkit-scrollbar-track {
+		border-width: initial;
+		border-color: transparent;
+		background: rgba(0, 0, 0, 0.1);
+	}
 }
+.scrollbarGhostHairline-1mSOM1 {
+	// & {
+	// }
+	&::-webkit-scrollbar {
+		width: 4px;
+		height: 4px;
+	}
 
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb,
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
-	border-width: 3px;
-	border-radius: 7px;
-	background-clip: $clip;
-	border-style: solid;
-}
+	&::-webkit-scrollbar-thumb {
+		background: rgba(24, 25, 28, 0.6);
+		border-radius: 2px;
+		cursor: move;
+	}
 
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb {
-	background: rgba(0, 0, 0, 0.4);
-	border: none;
-}
-
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
-	border-width: initial;
-	border-color: transparent;
-	background: rgba(0, 0, 0, 0.1);
-}
-
-// .scrollbarGhostHairline-1mSOM1 {
-// }
-
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar {
-	width: 4px;
-	height: 4px;
-}
-
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
-	background: rgba(24, 25, 28, 0.6);
-	border-radius: 2px;
-	cursor: move;
-}
-
-.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track {
-	background: transparent;
-	border: none;
+	&::-webkit-scrollbar-track {
+		background: transparent;
+		border: none;
+	}
 }
 
 // Removed Scrollers

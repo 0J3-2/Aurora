@@ -5642,9 +5642,9 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   height: 8px;
 }
 .thin-1ybCId::-webkit-scrollbar-track {
-  border: 0px solid transparent;
+  border: none;
   background: var(--scrollbar-thin-track);
-  border: 0px solid transparent;
+  border: none;
 }
 .thin-1ybCId::-webkit-scrollbar-thumb {
   background-clip: content-box;
@@ -5665,7 +5665,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   background: var(--scrollbar-auto-track);
 }
 .auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
-  border: 0px solid transparent;
+  border: none;
   background-clip: content-box;
   border-radius: 8px;
 }
@@ -5695,20 +5695,16 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   width: 14px;
   height: 14px;
 }
-
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb,
-.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb, .scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
   border-width: 3px;
   border-radius: 7px;
   background-clip: content-box;
   border-style: solid;
 }
-
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.4);
   border: none;
 }
-
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
   border-width: initial;
   border-color: transparent;
@@ -5719,13 +5715,11 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   width: 4px;
   height: 4px;
 }
-
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
   background: rgba(24, 25, 28, 0.6);
   border-radius: 2px;
   cursor: move;
 }
-
 .scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track {
   background: transparent;
   border: none;
