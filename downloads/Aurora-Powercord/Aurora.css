@@ -1,9 +1,9 @@
 /*Import CSS From Github*/
-@import url('https://0J3-2.github.io/Aurora/css/base.css');
+@import url('https://0J3-2.github.io/Aurora/Theme.css?v=2.8.0&b=4'); /* ?v/&b to prevent bbd from caching the url upon version change (v = version, b = build) */
 
 /*	
-/$$$$$$	
-/$$__  $$	
+  /$$$$$$	
+ /$$__  $$	
 | $$  \ $$ /$$   /$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$	
 | $$$$$$$$| $$  | $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$	
 | $$__  $$| $$  | $$| $$  \__/| $$  \ $$| $$  \__/ /$$$$$$$	
@@ -25,9 +25,9 @@
 	--main-color-faded: rgba(67, 206, 162, 0.2); /*Faded Main Color*/
 	/*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
-	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop*/
-	--backdropeffect: blur(8px);
-	--backdropeffectclr: rgba(0, 0, 0, 0.336);
+	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
+	--backdropeffect: blur(15px);
+	--backdropeffectclr: rgba(0, 0, 0, 0.03);
 	--backdrop-darkness: transparent; /*Brightness of var(--backdrop);*/
 	/*Roundness Variables*/
 	--chat-avatar-roundness: 5px !important; /*Roundness of chat avatars*/
