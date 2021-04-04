@@ -336,6 +336,10 @@ div#app-mount {
   --background-tertiary: var(--backdropeffectclr) !important;
 }
 
+.circleIconButton-1QV--U {
+  background: #0000 !important;
+}
+
 /*============== END OF SECTION ============== */
 /*2. Titlebar*/
 /*2.a. Main Titlebar*/
