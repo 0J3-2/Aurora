@@ -1,4 +1,5 @@
 $clip: content-box; // border-box
+$border: 0px solid transparent;
 // Thin Scrollers
 .thin-1ybCId {
 	&::-webkit-scrollbar {
@@ -6,9 +7,9 @@ $clip: content-box; // border-box
 		height: 8px;
 	}
 	&::-webkit-scrollbar-track {
-		border: var(--scrollbar-thin-track);
+		border: $border;
 		background: var(--scrollbar-thin-track);
-		border: 2px solid var(--scrollbar-thin-track);
+		border: $border; //2px solid var(--scrollbar-thin-track);
 	}
 	&::-webkit-scrollbar-thumb {
 		background-clip: $clip; //padding-box;
@@ -35,7 +36,7 @@ $clip: content-box; // border-box
 
 	&::-webkit-scrollbar-thumb,
 	&::-webkit-scrollbar-track {
-		border: 4px solid transparent;
+		border: $border;
 		background-clip: $clip; //padding-box;
 		border-radius: 8px;
 	}
@@ -86,7 +87,7 @@ $clip: content-box; // border-box
 
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb {
 	background: rgba(0, 0, 0, 0.4);
-	border: transparent;
+	border: none;
 }
 
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
