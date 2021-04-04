@@ -19,6 +19,7 @@
   border-radius: 6px !important;
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
+  border-radius: 15px;
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;
