@@ -16,6 +16,7 @@
 	background-color: var(--backdropeffectclr) !important;
 	backdrop-filter: var(--backdropeffect) !important;
 	--background-tertiary: var(--backdropeffectclr) !important;
+	border-radius: 15px !important;
 	.scroller-1Bvpku {
 		// Ensure no inheritance
 		background: transparent !important;
@@ -27,4 +28,5 @@
 .sidebar-2K8pFh {
 	left: 10px !important;
 	position: relative !important;
+	border-radius: 15px !important;
 }

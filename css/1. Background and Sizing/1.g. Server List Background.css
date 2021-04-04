@@ -8,6 +8,7 @@
   background-color: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
   --background-tertiary: var(--backdropeffectclr) !important;
+  border-radius: 15px !important;
 }
 .tree-2wKJdG .scroller-1Bvpku {
   background: transparent !important;
@@ -20,6 +21,7 @@
 .sidebar-2K8pFh {
   left: 10px !important;
   position: relative !important;
+  border-radius: 15px !important;
 }
 
 /*# sourceMappingURL=1.g.%20Server%20List%20Background.css.map */
