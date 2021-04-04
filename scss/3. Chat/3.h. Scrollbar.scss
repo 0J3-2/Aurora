@@ -1,0 +1,71 @@
+.theme-dark
+	.scrollerThemed-2oenus.themedWithTrack-q8E3vB
+	.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+}
+.da-messagesWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+	width: 10px !important;
+}
+.da-messagesWrapper
+	.scrollerWrap-2lJEkd
+	.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	background: rgba(0, 0, 0, 0.4) !important;
+	border: none !important;
+	display: block !important;
+}
+.da-messagesWrapper .scroller-2FKFPG::-webkit-scrollbar-thumb {
+	border: none !important;
+	background: var(--main-color) !important;
+}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
+	display: none !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
+	background: var(--hover-color) !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
+	width: 5px !important;
+}
+.da-messagesWrapper .scroller::-webkit-scrollbar {
+	width: 10px !important;
+}
+.da-messagesWrapper .scroller::-webkit-scrollbar-track-piece {
+	background: rgba(0, 0, 0, 0.4) !important;
+	border: none !important;
+	display: block !important;
+}
+.da-messagesWrapper .scroller::-webkit-scrollbar-thumb {
+	border: none !important;
+	background: var(--main-color) !important;
+}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece,
+.da-guildsWrapper .scroller::-webkit-scrollbar {
+	display: none !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
+	background: var(--hover-color) !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
+	width: 5px !important;
+}
+.theme-dark
+	.scrollerThemed-2oenus.themedWithTrack-q8E3vB
+	.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	border: transparent;
+}
+.theme-dark
+	.scrollerThemed-2oenus.themedWithTrack-q8E3vB
+	.scroller-2FKFPG::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(45deg, var(--gradient1), var(--gradient2));
+	border-color: transparent;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp
+	.scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-light
+	.scrollerThemed-2oenus.themeDark-2cjlUp
+	.scroller-2FKFPG::-webkit-scrollbar-thumb {
+	border-color: transparent;
+	background-image: linear-gradient(45deg, var(--gradient1), var(--gradient2));
+}
