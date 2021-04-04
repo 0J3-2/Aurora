@@ -272,12 +272,18 @@ div#app-mount {
 
 /*1.f. Modal Background*/
 /*1.g. Server List Background*/
-.da-guilds:not(.tree-2wKJdG),
-.wrapper-3NnKdC:not(.tree-2wKJdG) {
+.da-guilds,
+.wrapper-3NnKdC {
   background: var(--backdropeffectclr) !important;
   background-color: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
   --background-tertiary: var(--backdropeffectclr) !important;
+}
+.da-guilds .tree-2wKJdG,
+.da-guilds .scroller-1Bvpku,
+.wrapper-3NnKdC .tree-2wKJdG,
+.wrapper-3NnKdC .scroller-1Bvpku {
+  background: transparent !important;
 }
 
 .circleIconButton-1QV--U {
