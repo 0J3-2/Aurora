@@ -5626,15 +5626,12 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   width: 14px;
   height: 14px;
 }
-
-.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb,
-.scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb, .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
   border-width: 3px;
   border-radius: 7px;
   background-clip: content-box;
   border-style: solid;
 }
-
 .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
   border-width: initial;
 }
@@ -5648,7 +5645,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 .scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
   border-width: 3px;
   border-radius: 7px;
-  background-clip: padding-box;
+  background-clip: content-box;
   border-style: solid;
 }
 
