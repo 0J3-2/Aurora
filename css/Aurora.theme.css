@@ -5647,7 +5647,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   border: 2px solid var(--scrollbar-thin-track);
 }
 .thin-1ybCId::-webkit-scrollbar-thumb {
-  background-clip: padding-box;
+  background-clip: content-box;
   border: 2px solid transparent;
   border-radius: 4px;
   background: var(--scrollbar-thin-thumb);
@@ -5661,23 +5661,18 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   width: 8px;
   height: 16px;
 }
-
 .auto-Ge5KZx::-webkit-scrollbar-track {
   background: var(--scrollbar-auto-track);
 }
-
-.auto-Ge5KZx::-webkit-scrollbar-thumb,
-.auto-Ge5KZx::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
   border: 4px solid transparent;
   background-clip: content-box;
   border-radius: 8px;
 }
-
 .auto-Ge5KZx::-webkit-scrollbar-thumb {
   background: var(--scrollbar-auto-thumb);
   min-height: 40px;
 }
-
 .auto-Ge5KZx::-webkit-scrollbar-corner {
   background: transparent;
 }
@@ -5691,7 +5686,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 .scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
   border-width: 3px;
   border-radius: 7px;
-  background-clip: padding-box;
+  background-clip: content-box;
   border-style: solid;
 }
 
