@@ -20,7 +20,7 @@ $wordmarkText: 'Aurora v2.7.4 (Beta 2)';
                    Previously Maintanied by Korbs
                    Semi-Maintained by 0J3
 TABLE OF CONTENTS (might be out of date - please see individual css files in their folders)
-1. Background and Sizing
+1. Background and Sizing > Moved to folder
   1.a. Main Background
   1.b. Spacing
   1.c. General Transparency
@@ -147,6 +147,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 14. Roundness
 15. Overwrite Grey SVG's > Moved to Folder
 16. Discord Variable Overwrites > Moved to Folder
+17. Other > Moved to Folder
 */
 
 @import './Selection';
@@ -4269,8 +4270,13 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 
 /*============== END OF SECTION ============== */
 
-/*16. Discord Variable OVerwrites*/
+/*16. Discord Variable Overwrites*/
 @import './16. Discord Variable Overwrites/_index';
+
+/*============== END OF SECTION ============== */
+
+/*17. Other*/
+@import './17. Other/_index';
 
 /*Made with ♥ by Tropical, the Derealised Community and 0J3.
   Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/

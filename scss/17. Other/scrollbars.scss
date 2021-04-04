@@ -1,0 +1,134 @@
+// Thin Scrollers
+.thin-1ybCId::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+.thin-1ybCId::-webkit-scrollbar-track {
+	// Fix Scrollbars using background-color
+	border: var(--scrollbar-thin-track);
+	background: var(--scrollbar-thin-track);
+	border: 2px solid var(--scrollbar-thin-track);
+}
+.thin-1ybCId::-webkit-scrollbar-thumb {
+	background-clip: padding-box;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	background: var(--scrollbar-thin-thumb);
+	min-height: 40px;
+}
+.thin-1ybCId::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+// Auto Scrollers
+.auto-Ge5KZx::-webkit-scrollbar {
+	width: 16px;
+	height: 16px;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-track {
+	background: var(--scrollbar-auto-track);
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.auto-Ge5KZx::-webkit-scrollbar-track {
+	border: 4px solid transparent;
+	background-clip: padding-box;
+	border-radius: 8px;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+	background: var(--scrollbar-auto-thumb);
+	min-height: 40px;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+// Default Scroller
+.scrollbarDefault-3COgCQ::-webkit-scrollbar {
+	width: 14px;
+	height: 14px;
+}
+
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-thumb,
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
+	border-width: 3px;
+	border-radius: 7px;
+	background-clip: padding-box;
+	border-style: solid;
+}
+
+.scrollbarDefault-3COgCQ::-webkit-scrollbar-track {
+	border-width: initial;
+}
+
+// Ghost Scrollers
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar {
+	width: 14px;
+	height: 14px;
+}
+
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb,
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
+	border-width: 3px;
+	border-radius: 7px;
+	background-clip: padding-box;
+	border-style: solid;
+}
+
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.4);
+	border: transparent;
+}
+
+.scrollbarGhost-2F9Zj2::-webkit-scrollbar-track {
+	border-width: initial;
+	border-color: transparent;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+// .scrollbarGhostHairline-1mSOM1 {
+// }
+
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-thumb {
+	background: rgba(24, 25, 28, 0.6);
+	border-radius: 2px;
+	cursor: move;
+}
+
+.scrollbarGhostHairline-1mSOM1::-webkit-scrollbar-track {
+	background: transparent;
+	border: none;
+}
+
+// Removed Scrollers
+.none-2Eo-qx::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+// Partially Removed Scrollers
+.fade-2kXiP2 {
+	&::-webkit-scrollbar-thumb,
+	&::-webkit-scrollbar-track {
+		visibility: hidden;
+	}
+	&:hover::-webkit-scrollbar-track,
+	&:hover::-webkit-scrollbar-thumb {
+		visibility: visible;
+	}
+}
+
+// Other
+
+.scrollbar-3dvm_9::-webkit-scrollbar-corner {
+	border: none;
+	background: none;
+}
