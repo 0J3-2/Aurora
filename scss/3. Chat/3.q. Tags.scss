@@ -1,0 +1,56 @@
+@mixin baseTag {
+	.da-timestampCozy:before {
+		content: var(--tag-text);
+		background: var(--main-color);
+		color: #fff;
+		border-radius: 4px;
+		margin-right: 5px;
+		margin-left: 2px;
+		font-size: 12px;
+		font-weight: 600;
+		padding: 1px 4px;
+		text-shadow: 0px 1px 5px #000;
+	}
+}
+
+#app-mount .da-image[style*='219363409097916416'],
+.da-containerCozy[data-author-id*='219363409097916416'] {
+	border-radius: 0% !important;
+}
+.da-containerCozy[data-author-id*='219363409097916416'] .reactionBtn-2na4rd {
+	border-radius: 0px;
+	border: 2px solid rgba(255, 255, 255, 0.9);
+	background-size: 170%;
+	transform: scale(0.7);
+	margin-top: -1px;
+	background-position: 50%;
+}
+.message-1PNnaP {
+	&[data-user-id*='596425713347723269'] .da-username {
+		color: var(--hover-color);
+	}
+
+	&[data-user-id*='596425713347723269'] .da-timestampCozy:before {
+		content: 'Aurora Dev';
+		@include baseTag;
+	}
+
+	// Old Tags
+	&[data-user-id*='254362351170617345'] {
+		--tag-text: 'Old Aurora Dev (pre-2.7.3)';
+		@include baseTag;
+	}
+	&[data-user-id*='213220786805145600'],
+	&[data-user-id*='261354004569653248'],
+	&[data-user-id*='252460828157018112'],
+	&[data-user-id*='348593749372174337'] {
+		--tag-text: 'Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)';
+		@include baseTag;
+		// background: var(--main-color-faded);
+		// color: rgba(255, 255, 255, 0.8);
+		// border-radius: 4px;
+		// margin: 8px;
+		// font-size: 12px;
+		// padding: 1px 4px;
+	}
+}

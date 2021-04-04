@@ -46,47 +46,9 @@
 /*3.p. Typing Indicators*/
 @import './3.p. Typing Indicators.scss';
 
-/*3.q. Tags (v2 FEATURE, REDACTED)
-  .message-1PNnaP[data-user-id*="254362351170617345"] .da-timestampCozy:before {
-	  content: "Aurora Dev";
-	  background:var(--main-color);
-	  color: #fff;
-	  border-radius: 4px;
-	  margin-right:5px;
-	  margin-left:2px;
-	  font-size: 12px;
-	  font-weight: 600;
-	  padding: 1px 4px;
-	  text-shadow: 0px 1px 5px #000;
-  }
-  #app-mount .da-image[style*="219363409097916416"],
-  .da-containerCozy[data-author-id*="219363409097916416"]{
-	  border-radius:0% !important;
-  }
-  .da-containerCozy[data-author-id*="219363409097916416"] .reactionBtn-2na4rd {
-	  border-radius:0px;
-	  border:2px solid rgba(255,255,255,0.9);
-	  background-size:170%;
-	  transform:scale(.7);
-	  margin-top:-1px;
-	  background-position:50%
-  }
-  .message-1PNnaP[data-user-id*="254362351170617345"] .da-username {
-	color:var(--hover-color);
-  }
-  .message-1PNnaP[data-user-id*="213220786805145600"] .da-timestampCozy:before,
-  .message-1PNnaP[data-user-id*="261354004569653248"] .da-timestampCozy:before,
-  .message-1PNnaP[data-user-id*="252460828157018112"] .da-timestampCozy:before,
-  .message-1PNnaP[data-user-id*="348593749372174337"] .da-timestampCozy:before {
-	  content: "Aurora Bug Hunter";
-	  background:var(--main-color-faded);
-	  color: rgba(255,255,255,0.8);
-	  border-radius: 4px;
-	  margin:8px;
-	  font-size: 12px;
-	  padding: 1px 4px;
-  }
-  */
+/*3.q. Tags*/
+@import './3.q. Tags.scss';
+
 /* 3.r. Load More Messages */
 .hasMore-3e72_v {
 	background: rgba(0, 0, 0, 0.25);
