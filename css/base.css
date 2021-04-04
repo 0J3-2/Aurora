@@ -141,6 +141,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 	13.l. Channel Tabs
 14. Roundness
 15. Overwrite Grey SVG's > Moved to Folder
+16. Discord Variable Overwrites > Moved to Folder
 */
 ::selection {
   background: var(--main-color-faded) !important;
@@ -5133,6 +5134,10 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
   border: none;
 }
 
+.actionButton-uPB8Fs {
+  background: var(--main-color) !important;
+}
+
 /* 11.b. Nitro */
 .applicationStore-1pNvnv {
   border-radius: 6px !important;
@@ -5561,6 +5566,13 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 .emptyIconStreamerMode-3RfWOW,
 .noResultsImage-JbSWtu {
   opacity: 1;
+}
+
+/*============== END OF SECTION ============== */
+/*16. Discord Variable OVerwrites*/
+:root {
+  --scrollbar-auto-thumb: var(--main-color);
+  --scrollbar-auto-track: darken(var(--main-color), 10%);
 }
 
 /*Made with ♥ by Tropical, the Derealised Community and 0J3.
