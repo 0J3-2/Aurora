@@ -1,14 +1,10 @@
-.da-guilds,
-.wrapper-3NnKdC {
+.tree-2wKJdG {
   background: var(--backdropeffectclr) !important;
   background-color: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
   --background-tertiary: var(--backdropeffectclr) !important;
 }
-.da-guilds .tree-2wKJdG,
-.da-guilds .scroller-1Bvpku,
-.wrapper-3NnKdC .tree-2wKJdG,
-.wrapper-3NnKdC .scroller-1Bvpku {
+.tree-2wKJdG .scroller-1Bvpku {
   background: transparent !important;
 }
 
