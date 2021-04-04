@@ -8,6 +8,7 @@ What's new in Aurora 2.8.0 (Beta 1-4)
 - Change file structure to be way easier to maintain
 - Fix [Scrollbars](https://github.com/0J3-2/Aurora/blob/master/scss/17.%20Other/scrollbars.scss)
 - Make only 2 versions be in the changelog in-app - the rest on the Github
+- Add a website or whatever
 
 # 2.7.x
 
