@@ -297,7 +297,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.7.4 (Beta 1)";
+  content: "Aurora v2.7.4 (Beta 2)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -4350,9 +4350,34 @@ input.inputDefault-_djjkz.input-cIJ7To {
   background-color: var(--hover-color) !important;
 }
 
+.inputWrapper-31_8H8,
+.input-cIJ7To {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: var(--text-normal);
+  background-color: var(--deprecated-text-input-bg);
+  border: 1px solid var(--deprecated-text-input-border);
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+  transition-property: border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
 .input-cIJ7To:hover,
 .input-cIJ7To:focus,
-.input-cIJ7To.da-focused {
+.input-cIJ7To.da-focused,
+.inputWrapper-31_8H8:hover,
+.inputWrapper-31_8H8:focus,
+.inputWrapper-31_8H8.da-focused {
   border-color: var(--hover-color) !important;
 }
 

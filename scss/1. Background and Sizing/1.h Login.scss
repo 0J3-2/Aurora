@@ -1,0 +1,5 @@
+// 2FA
+@use "../Mixins/backgrounds";
+.theme-dark.authBox-hW6HRx {
+	@include backgrounds.blurred;
+}
