@@ -1,12 +1,13 @@
-/**
- * @name Aurora Alt Build
- * @description The alternative build to Aurora that contains most of the aurora files, instead of loading them on theme load - Useful for slow internet connections.
- * @author Tropical (Maintained by 0J3)
- * @version 2.7.3
- * @website https://www.guilded.gg/i/LEx06WOE
- * @source https://github.com/0J3-2/Aurora/tree/master
- * @updateUrl https://0J3-2.github.io/Aurora/css/Aurora.theme.css
- */
+/*	
+  /$$$$$$	
+ /$$__  $$	
+| $$  \ $$ /$$   /$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$	
+| $$$$$$$$| $$  | $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$	
+| $$__  $$| $$  | $$| $$  \__/| $$  \ $$| $$  \__/ /$$$$$$$	
+| $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$	
+| $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$	
+|__/  |__/ \______/ |__/       \______/ |__/      \_______/	
+*/
 
 :root {
 	/*Color Variables*/
@@ -22,7 +23,8 @@
 	/*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
 	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
-	--backdropeffect: blur(6px);
+	--backdropeffect: blur(15px);
+	--backdropeffectclr: rgba(0, 0, 0, 0.03);
 	--backdrop-darkness: transparent; /*Brightness of var(--backdrop);*/
 	/*Roundness Variables*/
 	--chat-avatar-roundness: 5px !important; /*Roundness of chat avatars*/

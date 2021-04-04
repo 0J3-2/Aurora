@@ -1,3 +1,5 @@
+@use "./Mixins/backgrounds";
+
 .messages-3amgkR,
 .scroller-2TZvBN,
 .panels-j1Uci_,
@@ -16,7 +18,8 @@
 }
 .sidebar-2K8pFh {
 	border-radius: 6px !important;
-	background: var(--backdropblurred) !important;
+	// background: var(--backdropblurred) !important;
+	@include backgrounds.blurred;
 	background-size: cover !important;
 	background-position: center !important;
 	background-attachment: fixed !important;

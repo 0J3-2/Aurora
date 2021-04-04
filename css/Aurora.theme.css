@@ -1,13 +1,14 @@
 @charset "UTF-8";
-/**
- * @name Aurora Alt Build
- * @description The alternative build to Aurora that contains most of the aurora files, instead of loading them on theme load - Useful for slow internet connections.
- * @author Tropical (Maintained by 0J3)
- * @version 2.7.3
- * @website https://www.guilded.gg/i/LEx06WOE
- * @source https://github.com/0J3-2/Aurora/tree/master
- * @updateUrl https://0J3-2.github.io/Aurora/css/Aurora.theme.css
- */
+/*	
+  /$$$$$$	
+ /$$__  $$	
+| $$  \ $$ /$$   /$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$	
+| $$$$$$$$| $$  | $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$	
+| $$__  $$| $$  | $$| $$  \__/| $$  \ $$| $$  \__/ /$$$$$$$	
+| $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$	
+| $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$	
+|__/  |__/ \______/ |__/       \______/ |__/      \_______/	
+*/
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
 @import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
 @import 'https://fonts.googleapis.com/css?family=Satisfy';
@@ -32,7 +33,8 @@
   /*Normal Backdrop*/
   --backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg);
   /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
-  --backdropeffect: blur(6px);
+  --backdropeffect: blur(15px);
+  --backdropeffectclr: rgba(0, 0, 0, 0.03);
   --backdrop-darkness: transparent;
   /*Brightness of var(--backdrop);*/
   /*Roundness Variables*/
@@ -5037,7 +5039,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta 1-4)\a- Re-enable tags \a- Fixed Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta 1-4)\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;
@@ -5793,7 +5795,8 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 
 .sidebar-2K8pFh {
   border-radius: 6px !important;
-  background: var(--backdropblurred) !important;
+  background: var(--backdropeffectclr);
+  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;

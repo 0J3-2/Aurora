@@ -17,7 +17,8 @@
 
 .sidebar-2K8pFh {
   border-radius: 6px !important;
-  background: var(--backdropblurred) !important;
+  background: var(--backdropeffectclr);
+  backdrop-filter: var(--backdropeffect);
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;

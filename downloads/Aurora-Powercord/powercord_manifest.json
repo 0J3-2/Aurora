@@ -1,8 +1,9 @@
 {
-    "name": "Aurora",
-    "description": "A dark Aurora Borealis discord theme with blurred elements.",
-    "version": "1.0",
-    "author": "Tropical#0001",
-    "license": "MIT",
-    "theme": "Aurora.css"
-  }
+	"name": "Aurora",
+	"description": "A dark Aurora Borealis discord theme with blurred elements.",
+	"version": "2.8.0",
+	"author": "0J3#0001",
+	"license": "MIT",
+	"consent": "true",
+	"theme": "Aurora.css"
+}

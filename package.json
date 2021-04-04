@@ -11,5 +11,6 @@
 		"sass": "^1.32.8"
 	},
 	"website": "https://www.guilded.gg/i/LEx06WOE",
-	"source": "https://github.com/0J3-2/Aurora/tree/master"
+	"source": "https://github.com/0J3-2/Aurora/tree/master",
+	"license": "MIT"
 }
