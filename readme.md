@@ -1,4 +1,4 @@
-# Aurora Theme (potentially maintained?)
+# [Aurora](https://0j3-2.github.io/Aurora/)
 
 A dark Aurora Borealis discord theme with blurred elements.
 
