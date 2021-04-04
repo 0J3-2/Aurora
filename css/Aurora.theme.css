@@ -272,8 +272,7 @@ div#app-mount {
 }
 
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
-.theme-light.theme-light .layer-3QrUeG:first-of-type::before,
-.powercord.experimental-web-features.theme-light .layer-3QrUeG:first-of-type::before {
+.theme-light .layer-3QrUeG:first-of-type::before {
   content: "Light mode will not be support on Aurora ~Korbs";
   text-align: center;
   width: 500px;
@@ -289,25 +288,7 @@ div#app-mount {
   padding-bottom: 80px;
   border-radius: 5px;
 }
-.theme-light.powercord:not(.experimental-web-features) .layer-3QrUeG:first-of-type::before,
-.powercord.experimental-web-features.powercord:not(.experimental-web-features) .layer-3QrUeG:first-of-type::before {
-  content: "Please enable experimental web features to use Aurora. ~0J3";
-  text-align: center;
-  width: 500px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.75);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 12px black;
-  color: #fff;
-  padding: 20px;
-  padding-bottom: 80px;
-  border-radius: 5px;
-}
-.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"],
-.powercord.experimental-web-features button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"] {
+.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"] {
   position: absolute;
   left: 47%;
   border-radius: 3px;
@@ -320,34 +301,23 @@ div#app-mount {
   box-shadow: 0 0 12px black;
   opacity: 1;
 }
-.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
-.powercord.experimental-web-features button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
+.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
+  content: "Turn On Dark mode";
   color: white;
   font-weight: bold;
 }
-.theme-light.powercord:not(.experimental-web-features) button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
-.powercord.experimental-web-features.powercord:not(.experimental-web-features) button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
-  content: "Turn On Dark mode";
-}
-.theme-light.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
-.powercord.experimental-web-features.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
-  content: "Turn On Experimental Web Features in Powercord>General Settings";
-}
-.theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(19),
-.powercord.experimental-web-features .side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
+.theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
   border: 2px solid var(--hover-color);
   color: var(--hover-color);
   background: var(--main-color-faded);
   padding: 16px;
   text-align: center;
 }
-.theme-light .layer-3QrUeG,
-.powercord.experimental-web-features .layer-3QrUeG {
+.theme-light .layer-3QrUeG {
   background: var(--backdropblurred) !important;
   background-size: cover !important;
 }
-.theme-light .layer-3QrUeG:first-of-type *,
-.powercord.experimental-web-features .layer-3QrUeG:first-of-type * {
+.theme-light .layer-3QrUeG:first-of-type * {
   visibility: hidden;
 }
 
@@ -390,7 +360,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta 5)";
+  content: "Aurora v2.8.0 (Beta 6)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -5069,7 +5039,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta 1-5)\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta 1-6)\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;
