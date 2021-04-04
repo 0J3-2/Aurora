@@ -316,7 +316,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta 12)";
+  content: "Aurora v2.8.0 (Beta 13)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -4995,7 +4995,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta 1-12)\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta 1-13)\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;
