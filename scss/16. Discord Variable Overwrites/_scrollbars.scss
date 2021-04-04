@@ -1,0 +1,8 @@
+@mixin scroll {
+	--scrollbar-auto-thumb: var(--main-color);
+	--scrollbar-thin-thumb: var(--scrollbar-thin-thumb);
+	--scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-thin-thumb);
+	--scrollbar-auto-track: darken(var(--main-color), 10%);
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+}
