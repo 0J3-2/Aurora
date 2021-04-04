@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/13.%20Plugins/channelTabs.scss"],"names":[],"mappings":"AAAA;EACC;EACA;EACA;EAEA","file":"channelTabs.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/13.%20Plugins/channelTabs.scss","../../scss/Mixins/_backgrounds.scss"],"names":[],"mappings":"AAEA;EACC;ECFA;EACA;EACA","file":"channelTabs.css"}

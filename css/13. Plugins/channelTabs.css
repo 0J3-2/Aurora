@@ -2,7 +2,7 @@
   --background-secondary-alt: var(--backdropeffectclr) !important;
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
-  background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=channelTabs.css.map */

@@ -5489,7 +5489,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   --background-secondary-alt: var(--backdropeffectclr) !important;
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
-  background: linear-gradient(var(--backdropeffectclr), var(--backdropeffectclr), var(--main-color));
+  border-radius: 15px;
 }
 
 /*13.a. Theme and PluginRepo*/
