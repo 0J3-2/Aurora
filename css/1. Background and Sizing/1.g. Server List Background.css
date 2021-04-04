@@ -18,7 +18,8 @@
 }
 
 .sidebar-2K8pFh {
-  padding-left: 10px;
+  left: 10px !important;
+  position: relative !important;
 }
 
 /*# sourceMappingURL=1.g.%20Server%20List%20Background.css.map */
