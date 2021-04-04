@@ -34,7 +34,7 @@
   --backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg);
   /*Darker/Blurred Version of Backdrop : Will be removed in the future (see backdrop-filter)*/
   --backdropeffect: blur(15px);
-  --backdropeffectclr: rgba(0, 0, 0, 0.03);
+  --backdropeffectclr: rgba(0, 0, 0, 0.28);
   --backdrop-darkness: transparent;
   /*Brightness of var(--backdrop);*/
   /*Roundness Variables*/
@@ -330,7 +330,6 @@ div#app-mount {
 /*1.f. Modal Background*/
 /*1.g. Server List Background*/
 .da-guilds,
-.scroller-1Bvpku,
 .wrapper-3NnKdC {
   background: var(--backdropeffectclr) !important;
   background-color: var(--backdropeffectclr) !important;
