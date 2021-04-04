@@ -2,14 +2,14 @@
  * @name Aurora
  * @description A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.
  * @author Tropical (Maintained by 0J3#0001)
- * @version 2.7.3
+ * @version 2.8.0
  * @website https://www.guilded.gg/i/LEx06WOE
  * @source https://github.com/0J3-2/Aurora/tree/master
  * @updateUrl https://0J3-2.github.io/Aurora/downloads/Aurora.theme.css
  */
 
 /*Import CSS From Github*/
-@import url('https://0J3-2.github.io/Aurora/Theme.css?v=2.7.3&b=5'); /* ?v/&b to prevent bbd from caching the url upon version change (v = version, b = build) */
+@import url('https://0J3-2.github.io/Aurora/Theme.css?v=2.8.0&b=4'); /* ?v/&b to prevent bbd from caching the url upon version change (v = version, b = build) */
 
 /*	
   /$$$$$$	
