@@ -1,8 +1,9 @@
 @use "../Mixins/backgrounds";
 
 .channelTabs-tabContainer.channelTabs-tabContainer {
-	--background-secondary-alt: var(--backdropeffectclr) !important;
-	@include backgrounds.blurred;
+	// --background-secondary-alt: var(--backdropeffectclr) !important;
+	// @include backgrounds.blurred;
+	background: transparent !important;
 	// background: var(--backdropeffectclr);
 	// backdrop-filter: var(--backdropeffect);
 
@@ -11,4 +12,7 @@
 	// 	var(--backdropeffectclr),
 	// 	var(--main-color)
 	// );
+}
+.channelTabs-tab {
+	@include backgrounds.blurred;
 }

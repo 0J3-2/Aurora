@@ -1,5 +1,8 @@
 .channelTabs-tabContainer.channelTabs-tabContainer {
-  --background-secondary-alt: var(--backdropeffectclr) !important;
+  background: transparent !important;
+}
+
+.channelTabs-tab {
   background: var(--backdropeffectclr);
   backdrop-filter: var(--backdropeffect);
   border-radius: 15px;
