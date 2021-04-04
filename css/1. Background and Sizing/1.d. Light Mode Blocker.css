@@ -1,4 +1,5 @@
-.theme-light .layer-3QrUeG:first-of-type::before {
+.theme-light.theme-light .layer-3QrUeG:first-of-type::before,
+.powercord.experimental-web-features.theme-light .layer-3QrUeG:first-of-type::before {
   content: "Light mode will not be support on Aurora ~Korbs";
   text-align: center;
   width: 500px;
@@ -14,7 +15,25 @@
   padding-bottom: 80px;
   border-radius: 5px;
 }
-.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"] {
+.theme-light.powercord:not(.experimental-web-features) .layer-3QrUeG:first-of-type::before,
+.powercord.experimental-web-features.powercord:not(.experimental-web-features) .layer-3QrUeG:first-of-type::before {
+  content: "Please enable experimental web features to use Aurora. ~0J3";
+  text-align: center;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 12px black;
+  color: #fff;
+  padding: 20px;
+  padding-bottom: 80px;
+  border-radius: 5px;
+}
+.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"],
+.powercord.experimental-web-features button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"] {
   position: absolute;
   left: 47%;
   border-radius: 3px;
@@ -27,23 +46,34 @@
   box-shadow: 0 0 12px black;
   opacity: 1;
 }
-.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
-  content: "Turn On Dark mode";
+.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
+.powercord.experimental-web-features button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
   color: white;
   font-weight: bold;
 }
-.theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
+.theme-light.powercord:not(.experimental-web-features) button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
+.powercord.experimental-web-features.powercord:not(.experimental-web-features) button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
+  content: "Turn On Dark mode";
+}
+.theme-light.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before,
+.powercord.experimental-web-features.theme-light button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label="User Settings"]::before {
+  content: "Turn On Experimental Web Features in Powercord>General Settings";
+}
+.theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(19),
+.powercord.experimental-web-features .side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
   border: 2px solid var(--hover-color);
   color: var(--hover-color);
   background: var(--main-color-faded);
   padding: 16px;
   text-align: center;
 }
-.theme-light .layer-3QrUeG {
+.theme-light .layer-3QrUeG,
+.powercord.experimental-web-features .layer-3QrUeG {
   background: var(--backdropblurred) !important;
   background-size: cover !important;
 }
-.theme-light .layer-3QrUeG:first-of-type * {
+.theme-light .layer-3QrUeG:first-of-type *,
+.powercord.experimental-web-features .layer-3QrUeG:first-of-type * {
   visibility: hidden;
 }
 

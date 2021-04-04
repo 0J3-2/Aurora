@@ -1,6 +1,24 @@
-.theme-light {
-	.layer-3QrUeG:first-of-type::before {
+.theme-light,
+.powercord.experimental-web-features {
+	&.theme-light .layer-3QrUeG:first-of-type::before {
 		content: 'Light mode will not be support on Aurora ~Korbs';
+		text-align: center;
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: rgba(0, 0, 0, 0.75);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0 12px black;
+		color: #fff;
+		padding: 20px;
+		padding-bottom: 80px;
+		border-radius: 5px;
+	}
+	&.powercord:not(.experimental-web-features)
+		.layer-3QrUeG:first-of-type::before {
+		content: 'Please enable experimental web features to use Aurora. ~0J3';
 		text-align: center;
 		width: 500px;
 		position: absolute;
@@ -29,10 +47,17 @@
 		box-shadow: 0 0 12px black;
 		opacity: 1;
 		&::before {
-			content: 'Turn On Dark mode';
 			color: white;
 			font-weight: bold;
 		}
+	}
+	&.powercord:not(.experimental-web-features)
+		button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label='User Settings']::before {
+		content: 'Turn On Dark mode';
+	}
+	&.theme-light
+		button.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN[aria-label='User Settings']::before {
+		content: 'Turn On Experimental Web Features in Powercord>General Settings';
 	}
 
 	.side-8zPYf6 .item-PXvHYJ:nth-of-type(19) {
