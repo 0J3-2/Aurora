@@ -1,7 +1,7 @@
 {
 	"name": "aurora",
 	"description": "A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.",
-	"version": "2.4.2",
+	"version": "2.8.0",
 	"author": "Tropical (Maintained by 0J3)",
 	"scripts": {
 		"build": "sass ./scss:./css",
