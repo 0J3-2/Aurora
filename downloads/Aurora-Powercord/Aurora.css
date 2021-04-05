@@ -1,5 +1,6 @@
 /*Import CSS From Github*/
 @import url('https://0J3-2.github.io/Aurora/Theme.css?v=2.8.0&b=4'); /* ?v/&b to prevent bbd from caching the url upon version change (v = version, b = build) */
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); /*Import UserBG (see https://github.com/Discord-Custom-Covers/usrbg) - Feel free to remove this*/
 
 /*	
   /$$$$$$	

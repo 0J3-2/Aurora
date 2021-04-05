@@ -43,6 +43,12 @@
 	&[data-user-id*='254362351170617345'],
 	&[data-author-id='254362351170617345'],
 	&[user_by_bdfdb='254362351170617345'] {
+		--tag-text: 'Old Aurora Dev (pre-2.7.X)';
+		@include baseTag;
+	}
+	&[data-user-id*='707043684889133117'],
+	&[data-author-id='707043684889133117'],
+	&[user_by_bdfdb='707043684889133117'] {
 		--tag-text: 'Old Aurora Dev (pre-2.7.3)';
 		@include baseTag;
 	}
