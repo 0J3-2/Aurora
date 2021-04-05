@@ -2806,7 +2806,9 @@ div#guild-header-popout {
   background: rgba(89, 54, 149, 0.35) !important;
 }
 
+.userPopout-3XzG_A,
 .da-userPopout {
+  background-image: var(--user-background) !important;
   background-image: var(--backdrop) !important;
   box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.6), 0px 0px 10px black;
   background-size: cover !important;
