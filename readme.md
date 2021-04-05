@@ -10,7 +10,7 @@ Sample Screenshots:
 
 ## Official Support
 
-Report an [issue](https://github.com/0J3-2/Aurora/issues) here, or DM me on Guilded: [0J3](https://guilded.com/0j3)
+[Report an issue](https://github.com/0J3-2/Aurora/issues), or DM me on Guilded: [0J3](https://guilded.com/0j3)
 
 ## Downloads
 
