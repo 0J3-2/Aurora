@@ -2,3 +2,10 @@
 .sidebar-CFHs9e:hover {
 	width: 260px;
 }
+
+// BD specific overwrites
+.bd-switch-checked,
+.bd-button,
+.bd-addon-views.bd-view-button.selected {
+	background: var(--main-color);
+}

@@ -5734,6 +5734,12 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   width: 260px;
 }
 
+.bd-switch-checked,
+.bd-button,
+.bd-addon-views.bd-view-button.selected {
+  background: var(--main-color);
+}
+
 /*Made with ♥ by Tropical, the Derealised Community and 0J3.
   Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
 /* ==============================
