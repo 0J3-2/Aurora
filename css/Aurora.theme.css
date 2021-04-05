@@ -1387,7 +1387,7 @@ svg.icon-3cZ1F_ {
 .message-2qnXI6[data-user-id*="596425713347723269"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="596425713347723269"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="596425713347723269"] .timestamp-3ZCmNB:before {
   content: var(--tag-text);
   background: var(--main-color);
-  color: #fff;
+  color: #fff !important;
   border-radius: 4px;
   margin-right: 5px;
   margin-left: 2px;
@@ -1395,8 +1395,6 @@ svg.icon-3cZ1F_ {
   font-weight: 600;
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
-  background: var(--main-color);
-  color: #fff !important;
 }
 .message-2qnXI6[data-user-id*="254362351170617345"], .message-2qnXI6[data-author-id="254362351170617345"], .message-2qnXI6[user_by_bdfdb="254362351170617345"] {
   --tag-text: "Old Aurora Dev (pre-2.7.3)";
@@ -1404,7 +1402,7 @@ svg.icon-3cZ1F_ {
 .message-2qnXI6[data-user-id*="254362351170617345"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="254362351170617345"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="254362351170617345"] .timestamp-3ZCmNB:before {
   content: var(--tag-text);
   background: var(--main-color);
-  color: #fff;
+  color: #fff !important;
   border-radius: 4px;
   margin-right: 5px;
   margin-left: 2px;
@@ -1412,8 +1410,6 @@ svg.icon-3cZ1F_ {
   font-weight: 600;
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
-  background: var(--main-color);
-  color: #fff !important;
 }
 .message-2qnXI6[data-user-id*="213220786805145600"], .message-2qnXI6[data-author-id="213220786805145600"], .message-2qnXI6[user_by_bdfdb="213220786805145600"], .message-2qnXI6[data-user-id*="261354004569653248"], .message-2qnXI6[data-author-id="261354004569653248"], .message-2qnXI6[user_by_bdfdb="261354004569653248"], .message-2qnXI6[data-user-id*="252460828157018112"], .message-2qnXI6[data-author-id="252460828157018112"], .message-2qnXI6[user_by_bdfdb="252460828157018112"], .message-2qnXI6[data-user-id*="348593749372174337"], .message-2qnXI6[data-author-id="348593749372174337"], .message-2qnXI6[user_by_bdfdb="348593749372174337"], .message-2qnXI6[data-user-id*="213220786805145600"], .message-2qnXI6[data-user-id*="261354004569653248"], .message-2qnXI6[data-user-id*="252460828157018112"], .message-2qnXI6[data-user-id*="348593749372174337"] {
   --tag-text: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
@@ -1421,7 +1417,7 @@ svg.icon-3cZ1F_ {
 .message-2qnXI6[data-user-id*="213220786805145600"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="213220786805145600"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="213220786805145600"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="261354004569653248"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="261354004569653248"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="261354004569653248"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="252460828157018112"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="252460828157018112"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="252460828157018112"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="348593749372174337"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-author-id="348593749372174337"] .timestamp-3ZCmNB:before, .message-2qnXI6[user_by_bdfdb="348593749372174337"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="213220786805145600"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="261354004569653248"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="252460828157018112"] .timestamp-3ZCmNB:before, .message-2qnXI6[data-user-id*="348593749372174337"] .timestamp-3ZCmNB:before {
   content: var(--tag-text);
   background: var(--main-color);
-  color: #fff;
+  color: #fff !important;
   border-radius: 4px;
   margin-right: 5px;
   margin-left: 2px;
@@ -1429,8 +1425,6 @@ svg.icon-3cZ1F_ {
   font-weight: 600;
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
-  background: var(--main-color);
-  color: #fff !important;
 }
 
 /* 3.r. Load More Messages */
