@@ -89,25 +89,39 @@
 /* Mixins */
 // Anims - See https://github.com/monstrousdev/themes/blob/master/addons/tag-animations.css
 @mixin anim_growInWithPulse {
-	animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+	&:hover + h2::after {
+		animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+	}
 }
 @mixin anim_growIn {
-	animation: popoutanim 0.2s;
+	&:hover + h2::after {
+		animation: popoutanim 0.2s;
+	}
 }
 @mixin anim_fallAndBounce {
-	animation: fallBounce 1s;
+	&:hover + h2::after {
+		animation: fallBounce 1s;
+	}
 }
 @mixin anim_spinIn {
-	animation: scaleSpin 0.4s;
+	&:hover + h2::after {
+		animation: scaleSpin 0.4s;
+	}
 }
 @mixin anim_fadeFromRight {
-	animation: fadeFromRight 0.2s;
+	&:hover + h2::after {
+		animation: fadeFromRight 0.2s;
+	}
 }
 @mixin anim_fadeFromTop {
-	animation: fadeFromTop 0.2s;
+	&:hover + h2::after {
+		animation: fadeFromTop 0.2s;
+	}
 }
 @mixin anim_fadeFromBottom {
-	animation: fadeFromBottom 0.2s;
+	&:hover + h2::after {
+		animation: fadeFromBottom 0.2s;
+	}
 }
 
 // random things

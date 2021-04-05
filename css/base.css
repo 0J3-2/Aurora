@@ -82,9 +82,6 @@
 /* Mixins */
 /* User Tags */
 /* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
-.avatar-1BDn8e[src*="596425713347723269"] {
-  animation: popoutanim 0.2s;
-}
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   content: "";
   color: transparent;
@@ -142,10 +139,10 @@
   bottom: -30px;
   left: -24px;
 }
-
-.avatar-1BDn8e[src*="799126689442955265"] {
+.avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
   animation: popoutanim 0.2s;
 }
+
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {
   content: "";
   color: transparent;
@@ -203,11 +200,10 @@
   bottom: -30px;
   left: -24px;
 }
-
-.avatar-1BDn8e[src*="772889739736907797"],
-.avatar-1BDn8e[src*="329348428700319745"] {
+.avatar-1BDn8e[src*="799126689442955265"]:hover + h2::after {
   animation: popoutanim 0.2s;
 }
+
 .avatar-1BDn8e[src*="772889739736907797"] + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"] + h2::after {
   content: "";
@@ -269,6 +265,10 @@
   transform: scale(1.2);
   bottom: -30px;
   left: -24px;
+}
+.avatar-1BDn8e[src*="772889739736907797"]:hover + h2::after,
+.avatar-1BDn8e[src*="329348428700319745"]:hover + h2::after {
+  animation: popoutanim 0.2s;
 }
 
 /*
