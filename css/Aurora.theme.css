@@ -141,7 +141,7 @@
 /* User Tags */
 /* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
 .avatar-1BDn8e[src*="596425713347723269"] {
-  animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+  animation: popoutanim 0.2s;
 }
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   content: "";
@@ -202,7 +202,7 @@
 }
 
 .avatar-1BDn8e[src*="799126689442955265"] {
-  animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+  animation: popoutanim 0.2s;
 }
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {
   content: "";
@@ -264,7 +264,7 @@
 
 .avatar-1BDn8e[src*="772889739736907797"],
 .avatar-1BDn8e[src*="329348428700319745"] {
-  animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+  animation: popoutanim 0.2s;
 }
 .avatar-1BDn8e[src*="772889739736907797"] + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"] + h2::after {
