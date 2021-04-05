@@ -1,5 +1,5 @@
 @mixin baseTag {
-	.da-timestampCozy:before {
+	.timestamp-3ZCmNB:before {
 		content: var(--tag-text);
 		background: var(--main-color);
 		color: #fff;
@@ -29,10 +29,10 @@
 	&[data-user-id*='596425713347723269'],
 	&[data-author-id='596425713347723269'],
 	&[user_by_bdfdb='596425713347723269'] {
-		.da-username {
+		.headerText-3Uvj1Y {
 			color: var(--hover-color);
 		}
-		.da-timestampCozy:before {
+		.timestamp-3ZCmNB:before {
 			content: 'Aurora Dev';
 			@include baseTag;
 		}
