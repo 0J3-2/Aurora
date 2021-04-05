@@ -1,0 +1,7 @@
+@use "../Mixins/backgrounds";
+.callContainer-3UuV6S {
+	@include backgrounds.blurred;
+}
+.container-pTf0Ly {
+	background: transparent;
+}
