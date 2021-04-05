@@ -198,7 +198,7 @@
   left: -24px;
 }
 .avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
-  animation: popoutanim 0.2s;
+  animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
 }
 
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {

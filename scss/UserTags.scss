@@ -214,7 +214,7 @@
 .avatar-1BDn8e[src*='596425713347723269'] {
 	@include base();
 	@include config('0J3', #ffffff);
-	@include anim_growIn();
+	@include anim_growInWithPulse();
 }
 // 100%normalcat#7681
 .avatar-1BDn8e[src*='799126689442955265'] {
