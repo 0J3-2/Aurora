@@ -213,7 +213,7 @@
 // 0J3#0001
 .avatar-1BDn8e[src*='596425713347723269'] {
 	@include base();
-	@include config('0J3', #ffffff);
+	@include config('0J3', #ffffff, initial, url(https://i.imgur.com/OI7nhT7.gif));
 	@include anim_growInWithPulse();
 }
 // 100%normalcat#7681
