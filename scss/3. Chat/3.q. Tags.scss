@@ -10,6 +10,8 @@
 		font-weight: 600;
 		padding: 1px 4px;
 		text-shadow: 0px 1px 5px #000;
+		background: var(--main-color);
+		color: #fff !important;
 	}
 }
 
@@ -32,10 +34,11 @@
 		.headerText-3Uvj1Y {
 			color: var(--hover-color);
 		}
-		.timestamp-3ZCmNB:before {
-			content: 'Aurora Dev';
-			@include baseTag;
-		}
+		--tag-text: 'Aurora Dev';
+		// .timestamp-3ZCmNB:before {
+		// 	content: 'Aurora Dev';
+		@include baseTag;
+		// }
 	}
 
 	// Old Tags
