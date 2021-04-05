@@ -5960,4 +5960,13 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   background: var(--main-color);
 }
 
+/* ==============================
+   == User-Requested BGs       ==
+   ============================== */
+/*0J3#0001*/
+[user_by_bdfdb="596425713347723269"],
+[data-user-id="596425713347723269"] {
+  --user-background: url("https://cdn.discordapp.com/attachments/799382446512275476/828689209933168711/da6ptz2-c76b1dcc-9d69-41b0-9092-63bfef467536.gif");
+}
+
 /*# sourceMappingURL=Aurora.theme.css.map */
