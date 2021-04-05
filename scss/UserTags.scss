@@ -3,7 +3,114 @@
 
 // blame bad code below this point on the source found at the import "DonatorTags" from user-tags
 
+/* Anims */
+@keyframes fallBounce {
+	/* 1s */
+	from {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	25% {
+		opacity: 1;
+		transform: translateY(0) scale(1.1, 0.9);
+	}
+	50% {
+		transform: translateY(-20%) scale(0.9, 1.1);
+	}
+	75% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes scaleSpin {
+	/* .4s */
+	from {
+		transform: scale(0) rotate(360deg);
+	}
+	to {
+		transform: scale(1) rotate(0);
+	}
+}
+
+@keyframes popoutanim {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes fadeFromRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes fadeFromRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes fadeFromBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	100% {
+		opacity: 0.9;
+		transform: none;
+	}
+}
+
+@keyframes mentionpulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 var(--main-color);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+	}
+}
+
 /* Mixins */
+// Anims - See https://github.com/monstrousdev/themes/blob/master/addons/tag-animations.css
+@mixin anim_growInWithPulse {
+	animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
+}
+@mixin anim_growIn {
+	animation: popoutanim 0.2s;
+}
+@mixin anim_fallAndBounce {
+	animation: fallBounce 1s;
+}
+@mixin anim_spinIn {
+	animation: scaleSpin 0.4s;
+}
+@mixin anim_fadeFromRight {
+	animation: fadeFromRight 0.2s;
+}
+@mixin anim_fadeFromTop {
+	animation: fadeFromTop 0.2s;
+}
+@mixin anim_fadeFromBottom {
+	animation: fadeFromBottom 0.2s;
+}
+
+// random things
 @mixin nonHover {
 	& + h2::after {
 		content: '';
@@ -89,17 +196,20 @@
 
 // 0J3#0001
 .avatar-1BDn8e[src*='596425713347723269'] {
-	@include base;
+	@include base();
 	@include config('0J3', #ffffff);
+	@include anim_growInWithPulse();
 }
 // 100%normalcat#7681
 .avatar-1BDn8e[src*='799126689442955265'] {
-	@include base;
+	@include base();
 	@include config('Some Cat', #ffffff);
+	@include anim_growInWithPulse();
 }
 // aga#????
 .avatar-1BDn8e[src*='772889739736907797'],
 .avatar-1BDn8e[src*='329348428700319745'] {
-	@include base;
+	@include base();
 	@include config('Bashar al assad', #ffffff);
+	@include anim_growInWithPulse();
 }
