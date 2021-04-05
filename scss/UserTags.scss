@@ -1,0 +1,96 @@
+/* Import user-tags */
+@import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
+
+// blame bad code below this point on the source found at the import "DonatorTags" from user-tags
+
+/* Mixins */
+@mixin nonHover {
+	& + h2::after {
+		content: '';
+		color: transparent;
+		height: 15px;
+		width: 15px;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		bottom: -29px;
+		left: -22px;
+		pointer-events: none;
+		filter: drop-shadow(0 0 2px var(--primary-color))
+			drop-shadow(0 0 2px var(--primary-color))
+			drop-shadow(0 0 2px var(--primary-color));
+	}
+}
+@mixin hover {
+	& + h2::after {
+		content: '';
+		color: transparent;
+		height: 15px;
+		width: 15px;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		bottom: -29px;
+		left: -22px;
+		pointer-events: none;
+		filter: drop-shadow(0 0 2px var(--primary-color))
+			drop-shadow(0 0 2px var(--primary-color))
+			drop-shadow(0 0 2px var(--primary-color));
+	}
+}
+@mixin base {
+	@include nonHover;
+	@include hover;
+}
+@mixin config($name, $clr, $icon:url(https://i.imgur.com/1qBTZlh.png), $namebg:url(https://i.imgur.com/0tAtFyG.gif), $shadow: #000000) {
+	// Hover
+	&:hover + h2::after {
+		content: $name;
+		color: $clr;
+		--main-color: $clr;
+		background-image: $namebg; //url(https://i.imgur.com/0tAtFyG.gif);
+		text-shadow: -1px 0 $shadow, 0 1px $shadow, 1px 0 $shadow, 0 -1px $shadow !important;
+	}
+
+	&:hover + h2::after {
+		color: white;
+		transform: none;
+		background-size: cover;
+		background-position: center;
+		padding: 3px 10px !important;
+		height: auto;
+		width: fit-content !important;
+		box-sizing: border-box !important;
+		white-space: nowrap !important;
+		bottom: -31px !important;
+		font-weight: 700;
+		text-shadow: -1px 0 $shadow, 0 1px $shadow, 1px 0 $shadow, 0 -1px $shadow;
+		filter: none;
+		display: block !important;
+		background-color: transparent;
+		box-shadow: none !important;
+	}
+
+	// Non-Hover
+	& + h2::after {
+		background-image: $icon;
+		transform: scale(1.2);
+		bottom: -30px;
+		left: -24px;
+	}
+}
+
+/* User Tags */
+
+// 0J3#0001
+.avatar-1BDn8e[src*='596425713347723269'] {
+	@include base;
+	@include config('0J3', #ff00ff);
+}
+
+// .avatar-1BDn8e[src*='596425713347723269']:hover + h2::after {
+// 	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fa6pzK009rlCak%2Fgiphy.gif&f=1&nofb=1);
+// 	color: #007fff;
+// 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+// 	content: '0J3';
+// }

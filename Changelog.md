@@ -2,6 +2,7 @@
 
 What's new in Aurora 2.8.0 (Beta 1-4)
 
+- Add [UserBG by Tropical](https://github.com/Discord-Custom-Covers/usrbg), aswell as the ability to add your own UsrBGs by forking Aurora
 - Re-enable [tags](https://github.com/0J3-2/Aurora/blob/master/scss/3.%20Chat/3.q.%20Tags.scss)
 - Fix Server list buttons having a background
 - Fix buttons in the friends list (message/more buttons)
