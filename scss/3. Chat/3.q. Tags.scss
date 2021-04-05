@@ -1,6 +1,6 @@
 // Bot Tags
 @mixin baseTag {
-	.timestamp-3ZCmNB:before {
+	.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU):before {
 		content: var(--tag-text);
 		background: var(--main-color);
 		color: #fff !important;

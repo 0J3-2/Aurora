@@ -42,16 +42,8 @@
 	@include nonHover;
 	@include hover;
 }
-@mixin config($name, $clr, $icon:url(https://i.imgur.com/1qBTZlh.png), $namebg:url(https://i.imgur.com/0tAtFyG.gif), $shadow: #000000) {
+@mixin config($name, $clr: #ffffff, $icon:url(https://i.imgur.com/1qBTZlh.png), $namebg:url(https://i.imgur.com/0tAtFyG.gif), $shadow: #000000) {
 	// Hover
-	&:hover + h2::after {
-		content: $name;
-		color: $clr;
-		--main-color: $clr;
-		background-image: $namebg; //url(https://i.imgur.com/0tAtFyG.gif);
-		text-shadow: -1px 0 $shadow, 0 1px $shadow, 1px 0 $shadow, 0 -1px $shadow !important;
-	}
-
 	&:hover + h2::after {
 		color: white;
 		transform: none;
@@ -71,6 +63,14 @@
 		box-shadow: none !important;
 	}
 
+	&:hover + h2::after {
+		content: $name;
+		color: $clr !important;
+		--main-color: $clr;
+		background-image: $namebg; //url(https://i.imgur.com/0tAtFyG.gif);
+		text-shadow: -1px 0 $shadow, 0 1px $shadow, 1px 0 $shadow, 0 -1px $shadow !important;
+	}
+
 	// Non-Hover
 	& + h2::after {
 		background-image: $icon;
@@ -83,8 +83,23 @@
 /* User Tags */
 /* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
 
+// --- Aurora Users ---
+
+// --- Me and my friends ---
+
 // 0J3#0001
 .avatar-1BDn8e[src*='596425713347723269'] {
 	@include base;
 	@include config('0J3', #ff00ff);
+}
+// 100%normalcat#7681
+.avatar-1BDn8e[src*='799126689442955265'] {
+	@include base;
+	@include config('Some Cat', #ff00ff);
+}
+// aga#????
+.avatar-1BDn8e[src*='772889739736907797'],
+.avatar-1BDn8e[src*='329348428700319745'] {
+	@include base;
+	@include config('Bashar al assad', #ffffff);
 }
