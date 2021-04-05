@@ -271,6 +271,67 @@
   animation: popoutanim 0.2s;
 }
 
+.avatar-1BDn8e[src*="483341794168537089"] + h2::after {
+  content: "";
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
+}
+.avatar-1BDn8e[src*="483341794168537089"] + h2::after {
+  content: "";
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
+}
+.avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+.avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
+  content: "Pro Gaymer";
+  color: #ffffff !important;
+  --main-color: $clr;
+  background-image: url(https://i.imgur.com/0tAtFyG.gif);
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
+}
+.avatar-1BDn8e[src*="483341794168537089"] + h2::after {
+  background-image: url(https://i.imgur.com/1qBTZlh.png);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -24px;
+}
+.avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
+  animation: popoutanim 0.2s;
+}
+
 /*
   /$$$$$$
  /$$__  $$
@@ -585,7 +646,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta 20)";
+  content: "Aurora v2.8.0 (Beta 21)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -5282,7 +5343,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta 1-20)\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta 1-21)\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;

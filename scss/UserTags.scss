@@ -229,3 +229,10 @@
 	@include config('Bashar al assad', #ffffff);
 	@include anim_growIn();
 }
+
+// MJD#1111
+.avatar-1BDn8e[src*='483341794168537089'] {
+	@include base();
+	@include config('Pro Gaymer', #ffffff);
+	@include anim_growIn();
+}
