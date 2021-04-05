@@ -1,0 +1,18 @@
+.gatedContent-3-B7qB {
+	background: var(--backdropblurred);
+	width: 700px;
+	height: 570px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%) !important;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 0px 10px 0px black;
+	transition: transform 150ms !important;
+}
+.gatedContent-3-B7qB:hover {
+	transition: transform 150ms;
+	transform: translate(-50%, -50%) scale(1.03) !important;
+}
