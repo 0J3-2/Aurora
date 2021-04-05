@@ -81,16 +81,10 @@
 }
 
 /* User Tags */
+/* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
 
 // 0J3#0001
 .avatar-1BDn8e[src*='596425713347723269'] {
 	@include base;
 	@include config('0J3', #ff00ff);
 }
-
-// .avatar-1BDn8e[src*='596425713347723269']:hover + h2::after {
-// 	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fa6pzK009rlCak%2Fgiphy.gif&f=1&nofb=1);
-// 	color: #007fff;
-// 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-// 	content: '0J3';
-// }
