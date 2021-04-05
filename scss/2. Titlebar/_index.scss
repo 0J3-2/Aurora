@@ -1,0 +1,86 @@
+/*2.a. Main Titlebar*/
+.wordmark-2iDDfm path {
+	display: none;
+}
+.typeMacOS {
+	margin-left: 1.25% !important;
+	margin-top: -0.3%;
+}
+#app-mount .wrapper-1Rf91z {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+.wordmark-2iDDfm:after {
+	content: $wordmarkText;
+	position: absolute !important;
+	left: 5px;
+	width: 100vw;
+	font-family: 'Satisfy';
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 6px;
+}
+.winButtonClose-1HsbF-:active {
+	box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.35);
+}
+.winButtonMinMax-PBQ2gm:active {
+	background: rgba(255, 255, 255, 0.15);
+}
+.winButton-iRh8-Z:nth-child(3) svg {
+	display: none;
+}
+.winButtonClose-1HsbF-,
+.winButtonMinMax-PBQ2gm.winButton-iRh8-Z.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs {
+	width: 45px;
+	height: 30px;
+	transition: 250ms ease all;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3) {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjRkZGRkZGIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTcgMTRINXY1aDV2LTJIN3YtM3ptLTItNGgyVjdoM1Y1SDV2NXptMTIgN2gtM3YyaDV2LTVoLTJ2M3pNMTQgNXYyaDN2M2gyVjVoLTV6Ii8+PC9zdmc+) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 19px;
+}
+.winButtonClose-1HsbF-:hover:after {
+	content: 'Close';
+	position: absolute;
+	top: 40px;
+	color: #dcddde;
+	background: inherit;
+	border-radius: 5px;
+	animation: fadetop 150ms;
+	padding: 8px 12px;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	right: 2px;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3):hover:after {
+	content: 'Maximize';
+	position: absolute;
+	top: 40px;
+	color: #dcddde;
+	background: var(--main-color);
+	padding: 8px 12px;
+	border-radius: 5px;
+	filter: none !important;
+	animation: fadetop 150ms;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.winButton-iRh8-Z:nth-of-type(4):hover:after {
+	content: 'Minimize';
+	background: var(--main-color);
+	position: absolute;
+	top: 40px;
+	color: #dcddde;
+	padding: 8px 12px;
+	border-radius: 5px;
+	opacity: 1;
+	animation: fadetop 150ms;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
