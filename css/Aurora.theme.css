@@ -110,7 +110,7 @@
 }
 .avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
   content: "0J3";
-  color: #ff00ff !important;
+  color: #ffffff !important;
   --main-color: $clr;
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
@@ -168,7 +168,7 @@
 }
 .avatar-1BDn8e[src*="799126689442955265"]:hover + h2::after {
   content: "Some Cat";
-  color: #ff00ff !important;
+  color: #ffffff !important;
   --main-color: $clr;
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
