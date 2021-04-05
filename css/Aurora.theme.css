@@ -249,7 +249,7 @@
   content: "Some Cat";
   color: #ffffff !important;
   --main-color: $clr;
-  background-image: url(https://i.imgur.com/0tAtFyG.gif);
+  background-image: url(https://i.imgur.com/OI7nhT7.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {

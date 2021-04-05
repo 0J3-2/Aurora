@@ -219,7 +219,7 @@
 // 100%normalcat#7681
 .avatar-1BDn8e[src*='799126689442955265'] {
 	@include base();
-	@include config('Some Cat', #ffffff);
+	@include config('Some Cat', #ffffff, url(https://i.imgur.com/1qBTZlh.png), url(https://i.imgur.com/OI7nhT7.gif));
 	@include anim_growIn();
 }
 // aga#????
