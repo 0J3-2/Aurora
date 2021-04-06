@@ -1,6 +1,18 @@
-.da-uploadArea + .da-wrapper {
+@namespace "backgrounds";
+.da-uploadArea + .da-wrapper,
+.uploadArea-1qnBZm + .wrapper-2qzCYF,
+.uploadArea-3QgLtW + .wrapper-2qzCYF,
+.uploadArea-1qnBZm + .minimum-28Z35l,
+.uploadArea-3QgLtW + .minimum-28Z35l,
+.wrapper-2qzCYF {
   /*backdrop-filter: blur(3px);*/
   background: #0000;
+}
+
+.fullScreen-1tMzXY {
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px !important;
 }
 
 /*# sourceMappingURL=1.e.%20Voice%20Chat%20Background.css.map */

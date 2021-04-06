@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/13.%20Plugins/permissionsViewer.scss","../../scss/Mixins/_backgrounds.scss"],"names":[],"mappings":"AACA;ECKC;EACA;EDJA;;;AAED;AAAA;AAAA;EAGC","file":"permissionsViewer.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/Mixins/_backgrounds.scss","../../scss/13.%20Plugins/permissionsViewer.scss"],"names":[],"mappings":"AAAA;ACCA;EDWC;EACA;ECVA;;;AAED;AAAA;AAAA;EAGC","file":"permissionsViewer.css"}
