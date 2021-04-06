@@ -60,7 +60,6 @@
   /*Color When someone is Streaming*/
 }
 
-@namespace "backgrounds";
 /* Import user-tags */
 /* Anims */
 @keyframes fallBounce {
@@ -600,7 +599,6 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
-@namespace "backgrounds";
 body::before {
   background: var(--backdrop) !important;
   background-size: cover !important;
@@ -716,7 +714,6 @@ div#app-mount {
 }
 
 /*1.e. Voice Chat Background*/
-@namespace "backgrounds";
 .da-uploadArea + .da-wrapper,
 .uploadArea-1qnBZm + .wrapper-2qzCYF,
 .uploadArea-3QgLtW + .wrapper-2qzCYF,
@@ -5845,7 +5842,6 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   fill: var(--hover-color) !important;
 }
 
-@namespace "backgrounds";
 .sb-menu-scroller-wrapper {
   background: var(--backdrop) !important;
   background-size: cover !important;
@@ -6221,7 +6217,6 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 /* ==============================
 	  ++  Spectra's fixes  ++
    ============================= */
-@namespace "backgrounds";
 .messages-3amgkR,
 .scroller-2TZvBN,
 .panels-j1Uci_,
