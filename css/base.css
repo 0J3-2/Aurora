@@ -1000,8 +1000,8 @@ span.content-1o0f9g {
 
 .chat-3bRxxu,
 .noChannel-Z1DQK7 {
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
   border-radius: 15px;
   background-size: cover !important;
@@ -5849,8 +5849,8 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 }
 
 .channelTabs-tab {
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
 }
 
@@ -6180,8 +6180,8 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 
 .sidebar-2K8pFh {
   border-radius: 15px !important;
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
   background-size: cover !important;
   background-position: center !important;

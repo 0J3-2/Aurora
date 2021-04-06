@@ -17,8 +17,8 @@
 
 .sidebar-2K8pFh {
   border-radius: 15px !important;
-  background: var(--backdropeffectclr);
-  backdrop-filter: var(--backdropeffect);
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
   background-size: cover !important;
   background-position: center !important;

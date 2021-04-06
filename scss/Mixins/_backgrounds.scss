@@ -1,6 +1,6 @@
 @mixin blurred {
-	background: var(--backdropeffectclr);
-	backdrop-filter: var(--backdropeffect);
+	background: var(--backdropeffectclr) !important;
+	backdrop-filter: var(--backdropeffect) !important;
 	border-radius: 15px;
 }
 @mixin coverBackground {
