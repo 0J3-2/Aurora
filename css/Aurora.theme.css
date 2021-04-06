@@ -1058,8 +1058,9 @@ span.content-1o0f9g {
 
 .chat-3bRxxu,
 .noChannel-Z1DQK7 {
-  background: var(--backdrop) !important;
-  background-size: cover !important;
+  background: var(--backdropeffectclr);
+  backdrop-filter: var(--backdropeffect);
+  border-radius: 15px;
   border-radius: 15px;
   background-size: cover !important;
   background-position: center !important;
