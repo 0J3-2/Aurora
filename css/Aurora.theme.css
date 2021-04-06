@@ -60,6 +60,7 @@
   /*Color When someone is Streaming*/
 }
 
+@namespace "backgrounds";
 /* Import user-tags */
 /* Anims */
 @keyframes fallBounce {
@@ -599,6 +600,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
+@namespace "backgrounds";
 body::before {
   background: var(--backdrop) !important;
   background-size: cover !important;
@@ -714,7 +716,13 @@ div#app-mount {
 }
 
 /*1.e. Voice Chat Background*/
-.da-uploadArea + .da-wrapper {
+@namespace "backgrounds";
+.da-uploadArea + .da-wrapper,
+.uploadArea-1qnBZm + .wrapper-2qzCYF,
+.uploadArea-3QgLtW + .wrapper-2qzCYF,
+.uploadArea-1qnBZm + .minimum-28Z35l,
+.uploadArea-3QgLtW + .minimum-28Z35l,
+.wrapper-2qzCYF {
   /*backdrop-filter: blur(3px);*/
   background: #0000;
 }
@@ -765,7 +773,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta Revision 24)";
+  content: "Aurora v2.8.0 (Beta Revision 26)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -5462,7 +5470,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta Revision 1-24)\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta Revision 1-26)\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;
@@ -5837,6 +5845,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   fill: var(--hover-color) !important;
 }
 
+@namespace "backgrounds";
 .sb-menu-scroller-wrapper {
   background: var(--backdrop) !important;
   background-size: cover !important;
@@ -6212,6 +6221,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 /* ==============================
 	  ++  Spectra's fixes  ++
    ============================= */
+@namespace "backgrounds";
 .messages-3amgkR,
 .scroller-2TZvBN,
 .panels-j1Uci_,

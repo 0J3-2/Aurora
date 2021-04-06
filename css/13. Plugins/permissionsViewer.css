@@ -1,3 +1,4 @@
+@namespace "backgrounds";
 #permissions-modal-wrapper .modal-body {
   background: var(--backdrop) !important;
   background-size: cover !important;

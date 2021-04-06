@@ -1,4 +1,10 @@
-.da-uploadArea + .da-wrapper {
+@namespace "backgrounds";
+.da-uploadArea + .da-wrapper,
+.uploadArea-1qnBZm + .wrapper-2qzCYF,
+.uploadArea-3QgLtW + .wrapper-2qzCYF,
+.uploadArea-1qnBZm + .minimum-28Z35l,
+.uploadArea-3QgLtW + .minimum-28Z35l,
+.wrapper-2qzCYF {
   /*backdrop-filter: blur(3px);*/
   background: #0000;
 }
