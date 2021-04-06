@@ -1,0 +1,16 @@
+/*	
+  /$$$$$$	
+ /$$__  $$	
+| $$  \ $$ /$$   /$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$	
+| $$$$$$$$| $$  | $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$	
+| $$__  $$| $$  | $$| $$  \__/| $$  \ $$| $$  \__/ /$$$$$$$	
+| $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$	
+| $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$	
+|__/  |__/ \______/ |__/       \______/ |__/      \_______/	
+
+"Proxy" File
+> Imports the base.css file
+> Used so in the case of another maintainer maintaining the project, there's no need to make everyone update
+*/
+
+@import 'https://0J3-2.github.io/Aurora/css/base.css?v=2.8.0';
