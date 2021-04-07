@@ -2475,7 +2475,7 @@ img[src='/assets/5fb477ca84edd15d9a2888ac28365acd.svg'] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label='Help']:hover::before {
-	content: $changelog;
+	content: data.$changelog;
 	z-index: 15;
 	display: block;
 	line-height: 22px;
