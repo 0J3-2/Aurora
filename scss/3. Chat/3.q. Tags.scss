@@ -1,6 +1,7 @@
 // Bot Tags
 @mixin baseTag {
-	.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU):before {
+	/*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
+	span.username-1A8OIy::after {
 		content: var(--tag-text);
 		background: var(--main-color);
 		color: #fff !important;
