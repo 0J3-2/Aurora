@@ -201,6 +201,10 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 	@include backgrounds.coverBackground;
 	background-repeat: no-repeat;
 }
+.menu-3sdvDG.styleFlexible-wGDiIL {
+	@include backgrounds.coverBackground;
+	background-repeat: no-repeat;
+}
 
 .popoutBottom-1YbShG[style*='z-index: 1001; overflow: hidden; visibility: visible'] {
 	left: 234px !important;
@@ -1752,7 +1756,7 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 }
 .da-sidebarRegion,
 .contentRegion-3nDuYy {
-	background: var(--backdropblurred) !important;
+	@include backgrounds.blurred;
 	background-size: cover !important;
 	background-attachment: fixed !important;
 }

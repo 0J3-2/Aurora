@@ -6,4 +6,5 @@
 @mixin coverBackground {
 	background: var(--backdrop) !important;
 	background-size: cover !important;
+	transition: background 1s;
 }

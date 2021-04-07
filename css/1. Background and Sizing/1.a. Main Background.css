@@ -1,6 +1,7 @@
 body::before {
   background: var(--backdrop) !important;
   background-size: cover !important;
+  transition: background 1s;
   position: absolute;
   content: "";
   height: 100%;
@@ -14,6 +15,7 @@ body::before {
 div#app-mount {
   background: var(--backdrop) !important;
   background-size: cover !important;
+  transition: background 1s;
 }
 
 .layer-3QrUeG,

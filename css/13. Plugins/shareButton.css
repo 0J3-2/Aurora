@@ -1,6 +1,7 @@
 .sb-menu-scroller-wrapper {
   background: var(--backdrop) !important;
   background-size: cover !important;
+  transition: background 1s;
 }
 
 /*# sourceMappingURL=shareButton.css.map */
