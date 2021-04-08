@@ -1,3 +1,7 @@
+/* File to import if you want things like the user backgrounds/user tags from Aurora */
+/**
+  * @file Aurora/SCSS/UserTags.scss
+  */
 /* Import user-tags */
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
 /* Anims */
@@ -78,7 +82,6 @@
 }
 /* Mixins */
 /* User Tags */
-/* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   content: "";
   color: transparent;
@@ -390,6 +393,9 @@
   animation: popoutanim 0.2s;
 }
 
+/**
+  * @file Aurora/SCSS/UserBGs/_index.scss
+  */
 /*0J3#0001*/
 [user_by_bdfdb="596425713347723269"],
 [data-user-id="596425713347723269"] {

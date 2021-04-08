@@ -81,7 +81,6 @@
 }
 /* Mixins */
 /* User Tags */
-/* If you've made it to this point, make a pull request to add your own things, providing you know how SCSS mixins work */
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   content: "";
   color: transparent;
