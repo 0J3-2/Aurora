@@ -717,10 +717,15 @@ div#app-mount {
 /*1.j. Status*/
 .root-1gCeng,
 .lookFilled-22uAsw.select-2fjwPw,
-.footer-2gL1pp {
+.footer-2gL1pp,
+.popout-VcNcHB {
   background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
+}
+
+.popout-VcNcHB .option-3KoAJB[aria-selected=true] {
+  background: #22222265;
 }
 
 /*============== END OF SECTION ============== */

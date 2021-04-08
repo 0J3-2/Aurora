@@ -1,6 +1,10 @@
 @use "../Mixins/backgrounds";
 .root-1gCeng,
 .lookFilled-22uAsw.select-2fjwPw,
-.footer-2gL1pp {
+.footer-2gL1pp,
+.popout-VcNcHB {
 	@include backgrounds.blurred;
+}
+.popout-VcNcHB .option-3KoAJB[aria-selected='true'] {
+	background: #22222265;
 }
