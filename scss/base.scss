@@ -1759,8 +1759,13 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 	background-size: cover !important;
 	background-attachment: fixed !important;
 }
-.da-sidebar:hover {
-	width: 300px !important;
+.da-sidebar,
+.sidebar-2K8pFh {
+	&:hover {
+		width: 300px !important;
+	}
+
+	transition: 0.3s width ease;
 }
 .standardSidebarView-3F1I7i .side-8zPYf6 [style*='color: rgb(114, 137, 218)'] {
 	color: var(--hover-color) !important;
@@ -1773,9 +1778,6 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 }
 .separator-gCa7yv {
 	background: rgba(255, 255, 255, 0.05) !important;
-}
-.da-sidebar {
-	transition: 0.3s width ease;
 }
 .da-sidebarRegion {
 	margin-right: 25px;

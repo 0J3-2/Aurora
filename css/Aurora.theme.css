@@ -754,6 +754,31 @@ div#app-mount {
   border-radius: 15px !important;
 }
 
+/*1.h. Login*/
+.theme-dark.authBox-hW6HRx {
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px;
+}
+
+/*1.i. Stage*/
+.callContainer-3UuV6S {
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px;
+}
+
+.container-pTf0Lyy {
+  background: transparent !important;
+}
+
+/*1.j. Status*/
+.theme-dark .root-1gCeng {
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px;
+}
+
 /*============== END OF SECTION ============== */
 /*2. Titlebar*/
 /*2.a. Main Titlebar*/
@@ -2840,16 +2865,16 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 
 .menu-Sp6bN1 {
-  background: var(--backdrop) !important;
-  background-size: cover !important;
-  transition: background 1s;
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px;
   background-repeat: no-repeat;
 }
 
 .menu-3sdvDG.styleFlexible-wGDiIL {
-  background: var(--backdrop) !important;
-  background-size: cover !important;
-  transition: background 1s;
+  background: var(--backdropeffectclr) !important;
+  backdrop-filter: var(--backdropeffect) !important;
+  border-radius: 15px;
   background-repeat: no-repeat;
 }
 
@@ -4661,7 +4686,12 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
   background-attachment: fixed !important;
 }
 
-.da-sidebar:hover {
+.da-sidebar,
+.sidebar-2K8pFh {
+  transition: 0.3s width ease;
+}
+.da-sidebar:hover,
+.sidebar-2K8pFh:hover {
   width: 300px !important;
 }
 
@@ -4676,10 +4706,6 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 
 .separator-gCa7yv {
   background: rgba(255, 255, 255, 0.05) !important;
-}
-
-.da-sidebar {
-  transition: 0.3s width ease;
 }
 
 .da-sidebarRegion {
