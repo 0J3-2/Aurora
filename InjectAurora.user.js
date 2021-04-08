@@ -2,7 +2,7 @@
 // @name         Aurora
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world with the aurora theme for discord!
+// @description  try to take over the world with the aurora theme for discord! (non-functional at the time of writing)
 // @author       You
 // @match        https://discord.com/channels/
 // @grant        none

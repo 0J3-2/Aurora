@@ -746,7 +746,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta Revision 26)";
+  content: "Aurora v2.8.0 (Beta Revision 27)";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -5471,7 +5471,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora 2.8.0 (Beta Revision 1-26)\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
+  content: "What's new in Aurora 2.8.0 (Beta Revision 1-27)\a- Fix Status Setting thing\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github\a\aWhat's new in Aurora 2.7.3 \a- Now maintained by 0J3 \a- General Fixes \a- Move to SCSS \a- Add support for Channel Tabs";
   z-index: 15;
   display: block;
   line-height: 22px;
@@ -6218,6 +6218,10 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   background: var(--main-color) !important;
 }
 
+.channel-2QD9_O {
+  max-width: none !important;
+}
+
 /*Made with ♥ by Tropical, the Derealised Community and 0J3.
   Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
 /* ==============================
@@ -6250,6 +6254,7 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   background-attachment: fixed !important;
   margin-right: 20px;
   padding: 0px 0px 0px 10px;
+  transition: width 0.5s;
 }
 
 .theme-dark .bodyInner-245q0L,

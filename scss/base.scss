@@ -150,6 +150,7 @@ TABLE OF CONTENTS (might be out of date - please see individual css files in the
 16. Discord Variable Overwrites > Moved to Folder
 17. Other > Moved to Folder
 */
+// TODO: Phase out and eventually entirely remove normalized classes being used alone - They may be used as a fallback, but the non-normalized classes should be used instead.
 
 @import './Selection';
 

@@ -5,4 +5,7 @@ css/*
 !css/base.css.map
 !css/Aurora.theme.css
 !css/Aurora.theme.css.map
+!css/UserBGs
+!css/UserTags.css
+!css/UserTags.css.map
 !readme.md

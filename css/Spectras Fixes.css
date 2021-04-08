@@ -25,6 +25,7 @@
   background-attachment: fixed !important;
   margin-right: 20px;
   padding: 0px 0px 0px 10px;
+  transition: width 0.5s;
 }
 
 .theme-dark .bodyInner-245q0L,
