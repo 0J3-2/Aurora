@@ -1,6 +1,6 @@
 # 2.8.x
 
-What's new in Aurora 2.8.0 (Beta 1-4)
+What's new in Aurora 2.8.0
 
 - Fix Status Setting thing
 - Extend "[UserTags](https://0J3-2.github.io/Aurora/scss/UserTags.scss)"

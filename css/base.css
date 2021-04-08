@@ -745,7 +745,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.0 (Beta Revision 28 - Final Revision before release)";
+  content: "Aurora v2.8.0";
   position: absolute !important;
   left: 5px;
   width: 100vw;
