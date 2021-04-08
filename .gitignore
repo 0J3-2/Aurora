@@ -8,4 +8,6 @@ css/*
 !css/UserBGs
 !css/UserTags.css
 !css/UserTags.css.map
+!css/import.css
+!css/import.css.map
 !readme.md
