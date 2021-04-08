@@ -1754,11 +1754,11 @@ svg.icon-3cZ1F_ {
 .message-2qnXI6[data-user-id*="596425713347723269"] .headerText-3Uvj1Y, .message-2qnXI6[data-author-id="596425713347723269"] .headerText-3Uvj1Y, .message-2qnXI6[user_by_bdfdb="596425713347723269"] .headerText-3Uvj1Y {
   color: var(--hover-color);
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Aurora Dev";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1769,11 +1769,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora Dev (pre-2.7.X)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1784,11 +1784,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora Dev (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1799,11 +1799,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1814,11 +1814,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1829,11 +1829,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1844,11 +1844,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1859,11 +1859,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
@@ -1874,11 +1874,11 @@ svg.icon-3cZ1F_ {
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
-.message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
+.message-2qnXI6[data-user-id*="$userId"], .message-2qnXI6[data-author-id="$userId"], .message-2qnXI6[user_by_bdfdb="$userId"] {
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
-.message-2qnXI6[data-user-id*="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] span.username-1A8OIy::after {
-  content: var(--tag-text);
+.message-2qnXI6[data-user-id*="$userId"] span.username-1A8OIy::after, .message-2qnXI6[data-author-id="$userId"] span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="$userId"] span.username-1A8OIy::after {
+  content: "Old Aurora v2.7.2 Bug Hunter (pre-2.7.3)";
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
