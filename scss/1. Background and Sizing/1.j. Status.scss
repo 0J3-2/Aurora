@@ -1,4 +1,6 @@
 @use "../Mixins/backgrounds";
-.theme-dark .root-1gCeng {
+.root-1gCeng,
+.lookFilled-22uAsw.select-2fjwPw,
+.footer-2gL1pp {
 	@include backgrounds.blurred;
 }
