@@ -18,5 +18,7 @@ Sample Screenshots:
 
 [Download for Powercord](downloads/Aurora-Powercord.zip)
 
+[Download for your Browser](https://0j3-2.github.io/AuroraWeb/)\*
+
 Previously Maintained by [Korbs](https://KorbsStudio.com)<br/>
 Maintained by [0J3](https://github.com/0J3/)
