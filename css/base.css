@@ -2812,20 +2812,6 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
   margin-left: 0px;
 }
 
-.menu-Sp6bN1 {
-  background: var(--backdropeffectclr) !important;
-  backdrop-filter: var(--backdropeffect) !important;
-  border-radius: 15px;
-  background-repeat: no-repeat;
-}
-
-.menu-3sdvDG.styleFlexible-wGDiIL {
-  background: var(--backdropeffectclr) !important;
-  backdrop-filter: var(--backdropeffect) !important;
-  border-radius: 15px;
-  background-repeat: no-repeat;
-}
-
 .popoutBottom-1YbShG[style*="z-index: 1001; overflow: hidden; visibility: visible"] {
   left: 234px !important;
 }
