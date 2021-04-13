@@ -1,0 +1,7 @@
+@use "../Mixins/backgrounds";
+.authorize-3eAFPo {
+	@include backgrounds.blurred;
+	& > * {
+		background: #0000;
+	}
+}
