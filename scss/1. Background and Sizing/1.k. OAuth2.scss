@@ -1,7 +1,11 @@
 @use "../Mixins/backgrounds";
 .authorize-3eAFPo {
-	@include backgrounds.blurred;
+	&,
 	& > * {
 		background: #0000;
 	}
+}
+.oauth2Wrapper-mHbF5q {
+	@include backgrounds.blurred;
+	background: #0000;
 }

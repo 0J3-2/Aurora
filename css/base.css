@@ -728,12 +728,14 @@ div#app-mount {
 }
 
 /*1.k. OAuth2*/
-.authorize-3eAFPo {
+.authorize-3eAFPo, .authorize-3eAFPo > * {
+  background: #0000;
+}
+
+.oauth2Wrapper-mHbF5q {
   background: var(--backdropeffectclr) !important;
   backdrop-filter: var(--backdropeffect) !important;
   border-radius: 15px;
-}
-.authorize-3eAFPo > * {
   background: #0000;
 }
 
