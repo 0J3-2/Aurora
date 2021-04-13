@@ -1,7 +1,9 @@
-@mixin blurred {
+@mixin blurred($border: true) {
 	background: var(--backdropeffectclr) !important;
 	backdrop-filter: var(--backdropeffect) !important;
-	border-radius: 15px;
+	@if $border == true {
+		border-radius: 15px;
+	}
 }
 @mixin coverBackground {
 	background: var(--backdrop) !important;
