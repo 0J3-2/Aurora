@@ -1,0 +1,14 @@
+[tooltip-id="617814512401252542"] {
+  --image: $bg;
+  --main-color: var(--image);
+}
+
+.tooltipContent-bqVLWK {
+  color: white !important;
+  background: var(--main-color) !important;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=ServerBGs.css.map */

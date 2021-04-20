@@ -23,7 +23,7 @@
 			.headerText-3Uvj1Y {
 				color: var(--hover-color);
 			}
-			--tag-text: $tag;
+			--tag-text: '#{$tag}';
 			@include baseTag;
 		}
 	}

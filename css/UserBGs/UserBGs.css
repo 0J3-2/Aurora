@@ -1,3 +1,5 @@
+/* This file is the publicly available file for other themes */
+@import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
 /*Jay Rizuri*/
 *[user_by_bdfdb="290610400763052035"],
 *[data-user-id="290610400763052035"] {
@@ -21,7 +23,5 @@
 *[data-user-id="799126689442955265"] {
   --user-background: url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png);
 }
-
-/* This file is the publicly available file for other themes */
 
 /*# sourceMappingURL=UserBGs.css.map */
