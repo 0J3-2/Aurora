@@ -1,5 +1,5 @@
-/* This file is the publicly available file for other themes */
-@import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
+/* This file is the publicly available file for other themes to load aurora's userbgs */
+@import url("https://raw.githubusercontent.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css");
 /*Jay Rizuri*/
 *[user_by_bdfdb="290610400763052035"],
 *[data-user-id="290610400763052035"] {
@@ -22,6 +22,12 @@
 *[user_by_bdfdb="799126689442955265"],
 *[data-user-id="799126689442955265"] {
   --user-background: url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png);
+}
+
+/*aga#6875*/
+*[user_by_bdfdb="772889739736907797"],
+*[data-user-id="772889739736907797"] {
+  --user-background: url(https://cdn.discordapp.com/attachments/772889937590353950/834193567291015198/iu.png);
 }
 
 /*# sourceMappingURL=UserBGs.css.map */

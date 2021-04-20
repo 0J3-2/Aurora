@@ -6491,6 +6491,12 @@ img.avatar-1BDn8e.clickable-1bVtEA {
   --user-background: url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png);
 }
 
+/*aga#6875*/
+*[user_by_bdfdb="772889739736907797"],
+*[data-user-id="772889739736907797"] {
+  --user-background: url(https://cdn.discordapp.com/attachments/772889937590353950/834193567291015198/iu.png);
+}
+
 /* ================================
    == Server-Requested BGs       ==
    ================================ */
