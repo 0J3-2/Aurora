@@ -161,6 +161,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   content: "";
   color: transparent;
@@ -174,6 +175,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
   color: white;
   transform: none;
@@ -192,6 +194,7 @@
   background-color: transparent;
   box-shadow: none !important;
 }
+
 .avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
   content: "0J3";
   color: #ffffff !important;
@@ -199,12 +202,14 @@
   background-image: url(https://cdn.discordapp.com/attachments/828735895271112795/828735958320545842/csfawetersgtertasdfg.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
+
 .avatar-1BDn8e[src*="596425713347723269"] + h2::after {
   background-image: url(https://cdn.discordapp.com/attachments/828735895271112795/828743615038750771/blob_uwu.png);
   transform: scale(1.2);
   bottom: -30px;
   left: -24px;
 }
+
 .avatar-1BDn8e[src*="596425713347723269"]:hover + h2::after {
   animation: mentionpulse 1.5s infinite, popoutanim 0.2s;
 }
@@ -222,6 +227,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {
   content: "";
   color: transparent;
@@ -235,6 +241,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="799126689442955265"]:hover + h2::after {
   color: white;
   transform: none;
@@ -253,6 +260,7 @@
   background-color: transparent;
   box-shadow: none !important;
 }
+
 .avatar-1BDn8e[src*="799126689442955265"]:hover + h2::after {
   content: "Some Cat";
   color: #ffffff !important;
@@ -260,12 +268,14 @@
   background-image: url(https://i.imgur.com/OI7nhT7.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
+
 .avatar-1BDn8e[src*="799126689442955265"] + h2::after {
   background-image: url(https://i.imgur.com/1qBTZlh.png);
   transform: scale(1.2);
   bottom: -30px;
   left: -24px;
 }
+
 .avatar-1BDn8e[src*="799126689442955265"]:hover + h2::after {
   animation: popoutanim 0.2s;
 }
@@ -284,6 +294,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="772889739736907797"] + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"] + h2::after {
   content: "";
@@ -298,6 +309,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="772889739736907797"]:hover + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"]:hover + h2::after {
   color: white;
@@ -317,6 +329,7 @@
   background-color: transparent;
   box-shadow: none !important;
 }
+
 .avatar-1BDn8e[src*="772889739736907797"]:hover + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"]:hover + h2::after {
   content: "Bashar al assad";
@@ -325,6 +338,7 @@
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
+
 .avatar-1BDn8e[src*="772889739736907797"] + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"] + h2::after {
   background-image: url(https://i.imgur.com/1qBTZlh.png);
@@ -332,6 +346,7 @@
   bottom: -30px;
   left: -24px;
 }
+
 .avatar-1BDn8e[src*="772889739736907797"]:hover + h2::after,
 .avatar-1BDn8e[src*="329348428700319745"]:hover + h2::after {
   animation: popoutanim 0.2s;
@@ -350,6 +365,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="483341794168537089"] + h2::after {
   content: "";
   color: transparent;
@@ -363,6 +379,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
   color: white;
   transform: none;
@@ -381,6 +398,7 @@
   background-color: transparent;
   box-shadow: none !important;
 }
+
 .avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
   content: "Pro Gaymer";
   color: #ffffff !important;
@@ -388,12 +406,14 @@
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
+
 .avatar-1BDn8e[src*="483341794168537089"] + h2::after {
   background-image: url(https://i.imgur.com/1qBTZlh.png);
   transform: scale(1.2);
   bottom: -30px;
   left: -24px;
 }
+
 .avatar-1BDn8e[src*="483341794168537089"]:hover + h2::after {
   animation: popoutanim 0.2s;
 }
@@ -411,6 +431,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="824368755517554798"] + h2::after {
   content: "";
   color: transparent;
@@ -424,6 +445,7 @@
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color));
 }
+
 .avatar-1BDn8e[src*="824368755517554798"]:hover + h2::after {
   color: white;
   transform: none;
@@ -442,6 +464,7 @@
   background-color: transparent;
   box-shadow: none !important;
 }
+
 .avatar-1BDn8e[src*="824368755517554798"]:hover + h2::after {
   content: "Half Arakne";
   color: #ffffff !important;
@@ -449,12 +472,14 @@
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000 !important;
 }
+
 .avatar-1BDn8e[src*="824368755517554798"] + h2::after {
   background-image: url(https://i.imgur.com/1qBTZlh.png);
   transform: scale(1.2);
   bottom: -30px;
   left: -24px;
 }
+
 .avatar-1BDn8e[src*="824368755517554798"]:hover + h2::after {
   animation: popoutanim 0.2s;
 }
@@ -828,7 +853,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.1 b3";
+  content: "Aurora v2.8.1 b4";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -1842,6 +1867,25 @@ svg.icon-3cZ1F_ {
   color: var(--hover-color);
 }
 .message-2qnXI6[data-user-id*="596425713347723269"] > .contents-2mQqc9 span.username-1A8OIy::after, .message-2qnXI6[data-author-id="596425713347723269"] > .contents-2mQqc9 span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="596425713347723269"] > .contents-2mQqc9 span.username-1A8OIy::after {
+  content: var(--tag-text);
+  background: var(--main-color);
+  color: #fff !important;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px 4px;
+  text-shadow: 0px 1px 5px #000;
+}
+.message-2qnXI6[data-user-id*="290610400763052035"], .message-2qnXI6[data-author-id="290610400763052035"], .message-2qnXI6[user_by_bdfdb="290610400763052035"] {
+  --tag-text: "Cute Maid";
+  /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
+}
+.message-2qnXI6[data-user-id*="290610400763052035"] .headerText-3Uvj1Y, .message-2qnXI6[data-author-id="290610400763052035"] .headerText-3Uvj1Y, .message-2qnXI6[user_by_bdfdb="290610400763052035"] .headerText-3Uvj1Y {
+  color: var(--hover-color);
+}
+.message-2qnXI6[data-user-id*="290610400763052035"] > .contents-2mQqc9 span.username-1A8OIy::after, .message-2qnXI6[data-author-id="290610400763052035"] > .contents-2mQqc9 span.username-1A8OIy::after, .message-2qnXI6[user_by_bdfdb="290610400763052035"] > .contents-2mQqc9 span.username-1A8OIy::after {
   content: var(--tag-text);
   background: var(--main-color);
   color: #fff !important;
@@ -5539,7 +5583,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora v2.8.1\a- Add a few userbgs\a- General Bug Fixes\a\aWhat's new in Aurora 2.8.0\a- Fix Status Setting thing\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github";
+  content: "What's new in Aurora v2.8.1\a- ServerBGs!\a- Add a few userbgs\a- General Bug Fixes\a\aWhat's new in Aurora 2.8.0\a- Fix Status Setting thing\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github";
   z-index: 15;
   display: block;
   line-height: 22px;
@@ -6463,6 +6507,14 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 *[user_by_bdfdb="799126689442955265"],
 *[data-user-id="799126689442955265"] {
   --user-background: url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png);
+}
+
+/* ================================
+   == Server-Requested BGs       ==
+   ================================ */
+[tooltip-id="617814512401252542"] {
+  --image: $bg;
+  --main-color: var(--image);
 }
 
 /*# sourceMappingURL=Aurora.theme.css.map */
