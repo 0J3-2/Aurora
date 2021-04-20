@@ -1,5 +1,16 @@
 // Files in this folder must follow the format of backgrounds at https://github.com/Discord-Custom-Covers/usrbg
-@import './0J3.scss';
-@import './Normalcat.scss';
-@import './Arkane.scss';
-@import './Jay.scss';
+// @import './0J3.scss';
+// @import './Normalcat.scss';
+// @import './Arkane.scss';
+// @import './Jay.scss';
+
+@use './mixin';
+
+/*Jay Rizuri*/
+@include mixin.UserTheme("290610400763052035",url(https://cdn.discordapp.com/attachments/633069781070643245/834056277940371456/image0.jpg));
+/*0J3#0001*/
+@include mixin.UserTheme("596425713347723269",url(https://cdn.discordapp.com/attachments/799382446512275476/828689209933168711/da6ptz2-c76b1dcc-9d69-41b0-9092-63bfef467536.gif));
+/*Half Arkane#2895*/
+@include mixin.UserTheme("833760604338389012",url(https://cdn.discordapp.com/attachments/828735895271112795/828735958320545842/csfawetersgtertasdfg.gif));
+/*snowhundred%normalcat#7681*/
+@include mixin.UserTheme("799126689442955265",url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png));

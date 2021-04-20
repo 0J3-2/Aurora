@@ -1,0 +1,6 @@
+@mixin UserTheme($id, $url) {
+	*[user_by_bdfdb='#{$id}'],
+	*[data-user-id='#{$id}'] {
+		--user-background: $url;
+	}
+}
