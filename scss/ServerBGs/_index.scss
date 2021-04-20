@@ -1,0 +1,7 @@
+@mixin ServerBG($id, $bg) {
+	[tooltip-id='#{$id}'] {
+		--image: $bg;
+		--main-color: var(--image);
+	}
+}
+@include ServerBG('617814512401252542', url(https://cdn.discordapp.com/attachments/633069781070643245/834056277940371456/image0.jpg));

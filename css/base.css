@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* Import user-tags */
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
-/* Anims */
 @import 'https://discord-custom-covers.github.io/usrbg/dist/usrbg.css';
 @import 'https://fonts.googleapis.com/css?family=Satisfy';
+/* Anims */
 @keyframes fallBounce {
   /* 1s */
   from {
@@ -761,7 +761,7 @@ div#app-mount {
 }
 
 .wordmark-2iDDfm:after {
-  content: "Aurora v2.8.1 b3";
+  content: "Aurora v2.8.1 b4";
   position: absolute !important;
   left: 5px;
   width: 100vw;
@@ -1768,7 +1768,7 @@ svg.icon-3cZ1F_ {
 }
 
 .message-2qnXI6[data-user-id*="596425713347723269"], .message-2qnXI6[data-author-id="596425713347723269"], .message-2qnXI6[user_by_bdfdb="596425713347723269"] {
-  --tag-text: "Aurora Dev";
+  --tag-text: $tag;
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
 }
 .message-2qnXI6[data-user-id*="596425713347723269"] .headerText-3Uvj1Y, .message-2qnXI6[data-author-id="596425713347723269"] .headerText-3Uvj1Y, .message-2qnXI6[user_by_bdfdb="596425713347723269"] .headerText-3Uvj1Y {
@@ -1779,13 +1779,14 @@ svg.icon-3cZ1F_ {
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 3px;
+  margin-left: 5px;
   font-size: 12px;
   font-weight: 600;
   padding: 1px 4px;
   text-shadow: 0px 1px 5px #000;
 }
+
 .message-2qnXI6[data-user-id*="254362351170617345"], .message-2qnXI6[data-author-id="254362351170617345"], .message-2qnXI6[user_by_bdfdb="254362351170617345"] {
   --tag-text: "Old Aurora Dev (pre-2.7.X)";
   /*.timestamp-3ZCmNB:not(.latin12CompactTimeStamp-38a8OU)*/
@@ -1795,8 +1796,8 @@ svg.icon-3cZ1F_ {
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 3px;
+  margin-left: 5px;
   font-size: 12px;
   font-weight: 600;
   padding: 1px 4px;
@@ -1811,8 +1812,8 @@ svg.icon-3cZ1F_ {
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 3px;
+  margin-left: 5px;
   font-size: 12px;
   font-weight: 600;
   padding: 1px 4px;
@@ -1827,8 +1828,8 @@ svg.icon-3cZ1F_ {
   background: var(--main-color);
   color: #fff !important;
   border-radius: 4px;
-  margin-right: 5px;
-  margin-left: 2px;
+  margin-right: 3px;
+  margin-left: 5px;
   font-size: 12px;
   font-weight: 600;
   padding: 1px 4px;
@@ -5472,7 +5473,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label=Help]:hover::before {
-  content: "What's new in Aurora v2.8.1\a- Add a few userbgs\a- General Bug Fixes\a\aWhat's new in Aurora 2.8.0\a- Fix Status Setting thing\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github";
+  content: "What's new in Aurora v2.8.1\a- ServerBGs!\a- Add a few userbgs\a- General Bug Fixes\a\aWhat's new in Aurora 2.8.0\a- Fix Status Setting thing\a- Extend \"UserTags\"\a- Add \"UserBG\" by Tropical, aswell as the ability to add your own UsrBGs by forking Aurora\a- Move to backdrop-filter:blur from normal blurs\a- Re-enable tags\a- Fix Server list buttons having a background\a- Fix buttons in the friends list (message/more buttons)\a- Change file structure to be way easier to maintain\a- Fix Scrollbars\a- Make only 2 versions be in the changelog in-app - the rest on the Github";
   z-index: 15;
   display: block;
   line-height: 22px;
@@ -6396,6 +6397,14 @@ img.avatar-1BDn8e.clickable-1bVtEA {
 *[user_by_bdfdb="799126689442955265"],
 *[data-user-id="799126689442955265"] {
   --user-background: url(https://cdn.discordapp.com/attachments/799382446512275476/828866655760678932/unknown.png);
+}
+
+/* ================================
+   == Server-Requested BGs       ==
+   ================================ */
+[tooltip-id="617814512401252542"] {
+  --image: $bg;
+  --main-color: var(--image);
 }
 
 /*# sourceMappingURL=base.css.map */
