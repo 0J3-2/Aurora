@@ -6010,6 +6010,14 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
   border-radius: 15px;
 }
 
+.BDFDB_undefined-0XOxJG {
+  display: none;
+}
+
+.BDFDB_undefined-uvKpxP {
+  color: #fff;
+}
+
 /*13.a. Theme and PluginRepo*/
 /*13.b. BetterFormattingRedux*/
 /*13.c. Translate*/
@@ -6106,6 +6114,7 @@ form.authBoxExpanded-2jqaBe.authBox-hW6HRx.theme-dark {
 /*13.j. StatusEverywhere*/
 /*13.k. Date Viewer*/
 /*13.l Channel Tabs*/
+/*13.m Plugin/Theme Repo*/
 /*============== END OF SECTION ============== */
 /*14. Roundness*/
 :root {
