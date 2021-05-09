@@ -1,4 +1,7 @@
-/* This file is the publicly available file for other themes to load aurora's userbgs */
+/*
+  This file is the publicly available file for other themes to load aurora's userbgs
+  It is recommended to use https://github.com/0J3-2/AutoUserBGs instead though, although this is here incase you need it (and because it imports this aswell)
+*/
 @import url("https://Discord-Custom-Covers.github.io/usrbg/USRBG.theme.css");
 /*Jay Rizuri*/
 *[user_by_bdfdb="290610400763052035"],
