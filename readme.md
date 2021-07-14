@@ -1,3 +1,6 @@
+## This project is yet again, no longer maintained
+I might occasionally make a commit or two, but for now, you'd be better off forking this. You can create pull requests, and I will likely merge them.
+
 # [Aurora](https://0j3-2.github.io/Aurora/)
 
 A dark Aurora Borealis discord theme with blurred elements.
